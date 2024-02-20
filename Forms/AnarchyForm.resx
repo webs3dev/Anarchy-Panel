@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="guna2Elipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="guna2PictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        TkSuQmCC
+</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAAAAEAIABoBAAAJgAAACAgAAABACAAqBAAAI4EAAAoAAAAEAAAACAAAAABACAAAAAAADAE
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALetpeK3raX/t62l/7etpf+3raX/t62l/7et
+        pf+3raX/t62l/7Sqov+2rKT/tq2l4QAAAAAAAAAAAAAAAAAAAADBtq3/wbat/8G2rf/Btq3/wbat/8G2
+        rf/Btq3/wbat/76zqv9s5Uz/qLyR/8G2rf8AAAAAAAAAAAAAAAAAAAAAyr+2/8q/tv/Kv7b/yr+2/8q/
+        tv/Kv7b/yr+2/8q/tv/JvrX/ucek/8W/sv/Kv7b/AAAAAAAAAAAAAAAAAAAAAJePh/+IgHr/iIB6/4V9
+        eP+Hf3n/hoB6/4aAev+Hf3n/hn14/4iAev+IgHr/l5CI/wAAAAAAAAAAAAAAAAAAAABlYFvxZWBb/2Vg
+        W/9lYFv/fXhx/4yFfv+MhX7/fXdy/2VgW/9lYFv/ZWBb/2VgW/AAAAAAAAAAAAAAAAAAAAAAaWRe02lk
+        Xv9pZF7/b2dY/5d+Tf+UjIL/lIyC/5d/Tv9vZln/aWRe/2lkXv9oZF7SAAAAAAAAAAAAAAAAAAAAAGtn
+        YbJsZ2H/jHlV/+ixPP/ttTv/xqNY/8ejV//ttTv/6LE8/4t5Vf9sZ2H/bGZhsQAAAAAAAAAAAAAAAAAA
+        AABwa2SSb2pj/+O0S//xvUj/5bVK/6OLVv+ji1b/5bZL//G9SP/is0z/b2pj/3FrZJEAAAAAAAAAAAAA
+        AAAAAAAAc29oc3JtZ//ovFb/9cVU/+m9Vf+mj17/po9e/+q9Vv/1xVT/57tW/3JtZ/9ybmdyAAAAAAAA
+        AAAAAAAAAAAAAHhybFN3cmv/l4hm//PJYv/5zWH/+c1h//nNYf/5zWH/88li/5aHZv93cmv/dnNqUgAA
+        AAAAAAAAAAAAAAAAAAB9eG4ze3Zu/3t2bv+Cemv/sJxs/8qvbf/Kr23/r5ts/4J6a/97dm7/e3Zu/3p1
+        cDIAAAAAAAAAAAAAAAAAAAAAdnZ2DX55cel+eXH/fnlx/355cf9+eXH/fnlx/355cf9+eXH/fnlx/355
+        ceiAgGoMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAD//wAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMAD
+        AADgBwAA4AcAAOAHAADgBwAA//8AAP//AAAoAAAAIAAAAEAAAAABACAAAAAAAIAQAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtaujnrSr
+        o/60q6P/tKuj/7Sro/+0q6P/tKuj/7Sro/+0q6P/tKuj/7Sro/+0q6P/tKuj/7Sro/+0q6P/tKuj/7Sr
+        o/+0q6P/tKuj/7Sro/+0q6P/tKuj/7Sro/60rKOcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAC5r6f9ua+n/7mvp/+5r6f/ua+n/7mvp/+5r6f/ua+n/7mvp/+5r6f/ua+n/7mvp/+5r6f/ua+n/7mv
+        p/+5r6f/ua+n/7mvp/+0qqL/sKef/7etpf+5r6f/ua+n/7mvp/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAL60q/++tKv/vrSr/760q/++tKv/vrSr/760q/++tKv/vrSr/760q/++tKv/vrSr/760
+        q/++tKv/vrSr/760q/++tKv/ua+m/3jRWv9X5jP/lL18/72zqv++tKv/vrSr/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAw7mw/8O5sP/DubD/w7mw/8O5sP/DubD/w7mw/8O5sP/DubD/w7mw/8O5
+        sP/DubD/w7mw/8O5sP/DubD/w7mw/8O5sP+5r6f/bu9R/2nyS/+K2HH/wLat/8O5sP/DubD/AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIvbT/yL20/8i9tP/IvbT/yL20/8i9tP/IvbT/yL20/8i9
+        tP/IvbT/yL20/8i9tP/IvbT/yL20/8i9tP/IvbT/yL20/8a7sv+pypT/meGC/7W7ov/HvLP/yL20/8i9
+        tP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM3CuP/Nwrj/zcK4/83CuP/Nwrj/zcK4/83C
+        uP/Nwrj/zcK4/83CuP/Nwrj/zcK4/83CuP/Nwrj/zcK4/83CuP/Nwrj/zcK4/8zBt//LwLb/zMG3/83C
+        uP/Nwrj/zcK4/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAx7yz/7Sqov+0qqL/tKqi/7Sq
+        ov+0qqL/s6mh/6uimv+nn5f/p5+X/6efl/+nn5f/p5+X/6efl/+nn5f/p5+X/6uimv+zqaH/tKqi/7Sq
+        ov+0qqL/tKqi/7Sqov/HvLP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABzbWj/Yl1Y/2Jd
+        WP9iXVj/Yl1Y/2JdWP9iXVj/ZmBb/4eAev+HgHr/h4B6/4eAev+HgHr/h4B6/4eAev+HgHr/ZmBb/2Jd
+        WP9iXVj/Yl1Y/2JdWP9iXVj/Yl1Y/3VuaP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGRf
+        WvJkX1r/ZF9a/2RfWv9kX1r/ZF9a/2RfWv9iXVj/e3Ru/4qDff+Kg33/ioN9/4qDff+Kg33/ioN9/3p0
+        bv9iXln/ZF9a/2RfWv9kX1r/ZF9a/2RfWv9kX1r/ZV9a8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAZmFb1GZhW/9mYVv/ZmFb/2ZhW/9mYVv/ZmFb/2ZhW/9lYFv/jIV+/46HgP+Oh4D/joeA/46H
+        gP+MhX7/ZWBb/2ZhW/9mYVv/ZmFb/2ZhW/9mYVv/ZmFb/2ZhW/9mYVvTAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAABnY160aGNd/2hjXf9oY13/aGNd/2hjXf9oY13/aGNd/2RfWf95cmn/kYqD/5GK
+        g/+RioP/kYqD/3dxaP9kX1n/aGNd/2hjXf9oY13/aGNd/2hjXf9oY13/aGNd/2ljXbIAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAGplX5NpZF//aWRf/2lkX/9pZF//aWRf/2ZhW/+af0r/zJ08/9ul
+        Mv+gknv/lI2G/5SNhv+fkXr/26Uy/8udPP+Yfkr/ZmFb/2lkX/9pZF//aWRf/2lkX/9pZF//aWRekgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbGVhdGtmYP9rZmD/a2Zg/2plX/94bFX/1aU+/+yz
+        OP/sszj/67I4/8uhS/+YkIf/mJCH/8yiS//rsjj/7LM4/+yzOP/UpT//d2tV/2plX/9rZmD/a2Zg/2tm
+        YP9qZl9zAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABtZ2FUbWhi/21oYv9taGL/eG1Z/+Kw
+        Qf/utz7/7rc+/+63Pv/utz7/6bM9/9CmTP/Qpkv/6rQ9/+63Pv/utz7/7rc+/+63Pv/isEH/d2xZ/21o
+        Yv9taGL/bWhi/21nZFIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHFsYjRvamT/b2pk/21o
+        Yv/AnU//8LtF//C7Rf/wu0X/8LtF//C7Rf/js0j/zaRN/82kTf/js0j/8LtF//C7Rf/wu0X/8LtF//C7
+        Rf++m0//bWhi/29qZP9vamT/cGtmMgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa2trE3Fs
+        Zf9xbGX/a2dg/+i5Tf/yv0v/8r9L//K/S//yv0v/wJ5U/2xmX/9vamP/b2pj/21nX//Bn1P/8r9L//K/
+        S//yv0v/8r9L/+i4Tf9rZ2D/cWxl/3FsZf9xcWMSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAcm1n8nJtZ/9saGL/6rxT//TDUf/0w1H/9MNR//TDUf/Dolf/bWhh/3BrZf9wa2X/bmhh/8Sj
+        WP/0w1H/9MNR//TDUf/0w1H/6bxS/2xoYv9ybWf/cm1n8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAB1b2jSdG9o/3JtZv/Ip13/9sdY//bHWP/2x1j/9sdY//bHWP/pvln/0q9c/9Kv
+        XP/qvlr/9sdY//bHWP/2x1j/9sdY//bHWP/Gpl3/cm1m/3RvaP90b2jRAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAHVxarJ2cWr/dnFq/4B2Y//tw1//+Mte//jLXv/4y17/+Mte//jL
+        Xv/4y17/+Mte//jLXv/4y17/+Mte//jLXv/4y17/7MNf/392Y/92cWr/dnFq/3VxarAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeXNsknhzbP94c2z/d3Jr/4V7Zf/jvmX/+s9k//rP
+        ZP/6z2T/+s9k//rPZP/6z2T/+s9k//rPZP/6z2T/+s9k/+K+Zf+EemX/d3Jr/3hzbP94c2z/eHNskAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB6dm1zenVt/3p1bf96dW3/enVt/3dx
+        aP+qlmj/3rxq//rSav/802r//NNq//zTav/802r/+tJq/928av+olWn/d3Fo/3p1bf96dW3/enVt/3p1
+        bf96dWxxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHx2cFJ7dm//e3Zv/3t2
+        b/97dm//e3Zv/3t2b/93cmv/e3Rp/5WIa/+Zimr/mYpq/5WIa/97dGj/d3Jr/3t2b/97dm//e3Zv/3t2
+        b/97dm//e3Zv/3x2cFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgHpwMH14
+        cf99eHH/fXhx/314cf99eHH/fXhx/314cf99eHH/fXhx/314cf99eHH/fXhx/314cf99eHH/fXhx/314
+        cf99eHH/fXhx/314cf99eHH/gHpvLgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACAgIAEf3pywYB6cvx/enL/f3py/396cv9/enL/f3py/396cv9/enL/f3py/396cv9/enL/f3py/396
+        cv9/enL/f3py/396cv9/enL/gHpy/H95cb9VVVUDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/////////////////////wAAAP8AAAD/AAAA/wAAAP8AAAD/AA
+        AA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/4AAAf+AAAH/gAAB/4AAAf+AAAH/gAAB/4AAAf+AAAH/wA
+        AD/8AAA//AAAP/wAAD//////////////////////
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Ą̨̢̡̧̡̡̨̢̧̧̢̢̧̢̢̡̧̡̡̡̧̡̨̨̡̡̢̨̨̢̧̨̢̧̨̧̢̡̢̧̧̡̨̨̨̧̨̢̧̨̢̢̢̢̡̡̢̢̢̢̢̧̧̨̧̧̧̡̡̢̨̨̡̡̧̧̧̢̧̢̨̨̧̧̧̨̢̨̨̧̢̧̢̡̨̧̢̡̢̨̨̨̢̡̡̧̧̨̨̢̧̢̢̧̢̢̡̧̨̨̨̨̢̨̡̧̢̧̧̡̢̢̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̺̹̫̳̙̱̟̪̖̻̠͕̼̦̱͈̬̮̠̩̣̲͈͎̳̼̹̮̦̝̘̻̰̭̩̱̫͎̱̖̞͈͍̰͉̻̻̖̲̲̩̳͖̖̺̭̻̣̰͖̗̞͖͕̩͔̖̞̺̮͕̤͉̯̮̳̞̩̝̝̻͓͓̯̠̠̤̦̰͚̠̤͙̼̫̙̥̮̫͎͔͍͕͚͙̼̤̟̞͉̻̲̠͎̝͙̙͕͉̩̼͇̝͇͔̭̳͉̮̜̮͉̭̠͉̣̹͍͓͍̙͕̜̳̺̰̟̮̞͚̫̰̺̳̮̞̞̝̻̼͚̗̺̰͚̞͖̗̣̙̺͉̗̗͇̗̝̯̞̻͈͎̬̪̩̖͖̯̮̺̼̘̼̦̥̱̣̬̙͚͙̯̼͔̥͈̣̮͎̫̠̬̙͚̜̥̩͍͔̭̻̲̭̤̥̥͉̗̗͚̘͙̭̫͓̼̦̲̠̤̞̰͈̞̫͚̺͔͖̯͈̞̠͇͖̼̤̩̹̟̮̲̥̹͎͚͔̗̣̟̺͈͔̮̱̹̤̤̠̘͎̜͕̬̖̬̹̲͓̗̩̯̠̙͕͇͇͍̙͕͍̦̹̫̼̩̗̬̱͍̹̹̳͕͈̱̬̞͖͇͎͎̤̠̳̗̹̱͈͚̗̲̗̙͎̬͓̭̠̜̜̲̞̼̗̗̘͓͚̖̙̭̺̞̺͙͓̯̝̤̭͙̬̳̩̯̘̝͚̥̠̖̪̠̗̜̳͖̣̥͕̘̰̗̜̟͍̤͉͈̻̹͔̩͉̠̯̞̪͔͕̠͙̳͉̣̬͔̳̺͖̤̟͈̙̹̙̦̗̥̹͕̘̬͓̤̹̲̪͔̲̦̗̜͈̝͈͔̭͙̱̫̣͉̩̼̻͉̺̝͓̝̘͍̤͎̞̫̪̦͉̭͓̹̙͖̳̦̠̦̳̠̟̖̱͔͍̰̝̩̰̼̠̮͕̰͙̘͙̘͍̞̭͙̭̟̣̗̫̪̪̻͓̹̮͚͇͕̪̮͉͕͕̯̖̫̝̟̠̫͔̻̬͉̟͈̫̥̣͖͉͍̭͖̣͙̳̲̜̫͖̮̝̥͎̖͍͓̩̯̳̭̹̤̪̜͙̜̝̙͔̖̰͔͙̺͔̦̤̘̯̣͖̗̪̞̟̯̳͖̱̥̫͓̦͉̼̳̭͔̭̺̳̻̭͔̯͍̫͇̜̙̻̙͙̩̪̞͍͎̜̰̤̹̜̩̣̫͕̳̟͓̬̜̼͓̬̳͙̦͎̰͍̼̼͍̭̝͕̳̥͙̠̪̖̤͚͇̞͉̰̰̯͍̤͚̫̫̦̫̞̦̱̰͚̞̮͈̼̭̝͚͕͍̮̰͇̮̹̤̫̲͉͖̪̤̘͎̭̱̱͔̣̟͈̖͓͓͇̭̪͖̻̹̤̖̻͍͓̦͙̮͕̯̱̳̻͇̭̱̯̯͚̼̜͕͎̜̦̬̝͚͚͔̘͕͖̲͔͍̬̗͚̰̥̦̣̞̝͚̮̺̘̘̙͈̱̣͍̳̙̣̻̫̺̠̝̮͕̯̭̻͈͖̲̜͕̣̤̪̼̯̩̻͎̩͎͙̥̻̫̮̟̞̯͖͓͙̞̭̯͇̙̥̰̞͙͕̼͓̱̻̖̺̳̹̙͎̜̫̜̻͔͔̮̜̠͚̖̞̗̝̟͕̙̗̫̮̬̭͈̘̘͈͙͍͓̱̫̭̫̱̦̟̖̜̜̘̜͇̣͚̖̲̣̞͙̜̻̝̫̤̞̠͇̩̺̭̺̦̲̤̺̪̪͍͇̠̦̺͓͕̞̹̞̝̤̟̤͉͕̭͖̪̭̦̙̤̯̫̘̤̳̼̙̦̹̼̺͓͔̗̠͔̫̹͈̼̮̰̣̟͙̳̠̫̺̺̭͔̜͚̘̗͚̠̩͖͖̖̞̮̺̯͚̻̙͚̳̖͉͍̳͙̗͙̥̫̘̼͙̭̞͙̞̬͉̮̳̝̬̰̤̜͉̤̙̤͎͙͙̙̘̗̬͕̯͙̖̭͕̗̼̜̝̻͈̲͓͖̺̠̯͕̞̭̦̼͎̯̘̙͍̞̩̩͖̰̠̯͕͔̲͓̫͈̩̭̘̪̗͈̙̦͔̜̺̱̞͇͔̹̳͖͖͉̩̹̩̠͇̥͙͓̭̝͇̰͉̥̠̣̭̰͈̼̩͚̯̭͎̞͕͈̯̖̣̙̫͉̬̥̥̻̣̫̙̤͔̬̜̞̰̻̜͎̝̬̖̼̱̩̟̬̪͎͔̥̣̩͈̯͓͈͚̤͙̭͇̫̱̥̝̞̹̭͙͕̟͈̣̖̬̹̦͔̳̮̩̪̳̝͙͈̯̜̳̲͍̜̜̦͖͉̙̜̖̲͓̪̤̥͔̥̜̲̤̭͕̲̼͈̦͙͎̜͎̘̗̤̙̯͔̬̣͙̯̮̦̹̝̝͇͇͓͖̜͍̩̳̺̥͉͍͉͉̳̙̻̟̪̭̝͈̫̼̗̥̯̲͔̙̳̘͈͇̼̯̺̮̩̭̫̣͓͍̞͓̬̮̺̼̲̖̞̖̲͔̠͔͖͓̹̼̩̻̯̞̥̱̙̬̭̗̟͈̲̫̳̱̥̞͇͔̘͉͍̮̜̞̤͇̝̠̭̜͔̞̜̟͙̮̰͍͕̠̺̪̩͓͕̹̞͔̜̦̩͎̙͇͖̺͕͙̰̩̪̯̥̞̠̯̮̖̘͉͇̥̭̫̥̳̅͒̃̿͆͒̾̉̇̊̆́̒͑̆̈́̌͂͛̆̽̋̎̑͆̄͂̏͑͋͛͗̄̈́́͆͗͋̿̅̿̌͑͊̈͛͂̊̓̽́͗̍̀̈̎͋̔̐͆͛͂̾̉̋͛̈́́̂̑͌̽̇̇̈́̍̑̾̃͋̂̐̅̅͋̀̊͒̎͐̎̾͛͗̑̽̎̀́̃̆̊͗̀̏̇̿̏̄̔̊͒̃̆̽̍́͂̿̎̃̓̈́̔͊̍̊̎͌͑͂̂̀̆̐̂̄̋̊͑̏͆͌̽̃͒̓̊͊̑͋̀̆͂͑́̾́̈́̃̃̂͊̎͐͋̑̍̎̉̆̑͛̐͑̋̄̃̋͂̔̒̂͐͋̌̒̓́̓̓͒͋̽͆͆̂̌͑̾̊̽̅̇͐̇͗͑̇̊͋̃̃̎̍̋̉́̄̎͆̿͑̅̒̓͆̄̃́́͑͆̇̑̎̔͛͂̓͛̒̅̀̌͛̾̍̓͒̊͆̌̐̉́͒́͗̀̅̌̍̋̾͋́͊̓̉́́̆̑̆́̓́͌̎̌̎̇́̐̀́̇́̍̽̈̊̓͒͌̋̋͐͂͆̉̓̊̓͛̐͋́̈̆̀͑͌͑̑͂̓̄̑͆̾̆͛̂̄̽̿̋̂̃͐̑̂̇͛̔̾͌̓̀́͋̂̈́̉̑̀̂̂̈́͛̔̐͌͋͐̀͐̐͋̀͋́́͆̽́̈́͐̈́́͆́̉̍̎͒́̒̀́̀̾̆̿̋͒̍̓̐̓̂̑͛̈́͑̐́̍̎͑̔̋̃͂̐̀͐̀̑̇̒̀̍̂̓̀̽͛̓̏͑̑̒̔̿͒͒̍͒͗̇̃̽͗͒͗̌̈̅̊̀̔́͂͛͒̽̍̽̀͆̎̋̿̾̽̓̿́̑͋͐̋́̔͒̀̈̀͂́̑̂͑̾̀͗̔̋͐̉̔̿̐̑͌͑͛̆͐̈͊̂̀̂͌̉̌̂̉͊̎͆͊́̍͛̍͗̀̄͛͐̓̈́̈̀͗̋̈͌̽̐̒̾̇͂̀̆̏̍̎̌͗̈́͛̃̓̍̂̀͂̈́̊́̅͋̄́͛͐̽͐̎̍̉̐͐̆̉̔̓̉̈̀̾̎͂̇̃̍̔̇͋̍̓̍͂̎͌̐̿̐͗̌̋͂̓̾̀͛̀̽̿̽͑̅͛͗͆͐̅̎́̇͌̆̀̎̌̿̄͆̀̀̎͌̓̐͂́̽̓̀̂̉̏͒̈́̓̿̀͛͒̔̀̓̓̀̀̎̈̀̀̍́̓͛͂̈́̋͐̓̾̿̿̈͆͐͆̂̽̀͗͛͋̀̂̓̈́́̆͂̎̈͑̄̀̈͑́̔͒̍͐̓̔̏͆͒̔̑͋͌̇̈͌̅͒͒̏̇̐̂̃̉̀̑͌̉̄̃̂͌̒̋͂̌̏͂̋̊̿̌̄̎͋͑͊̓̓̊̅̂̅́͆̍̒̃͂̍͗͑́̾̿̑́̓̈́̌̄̔͒͌͂̌̈͊͊̀̉̈͑̈́̄͛͐͛̈́͒̋̈͆͗͑̍͆̈́̏̀͛̄̏͒̀͆̌̂͛̊̿̈̋̈́͋̓̐̎̔͗̎̉̀̇̈͆̑͂̊̀̈́̔̂̎͑͗̋̈́̾̑̐̀̌̏̀͗͑̍͗̎̀̔́̓̾͑͌̐̀͊͐̐͐̓̒͛̈̈́̅̉̂͋̀͊͑̅̑͛̉̑͂̅̆̿̒̌́̆̎́̎̑̀̃̀̃̉̏̊̇̀̑̒͗̋̏̔̉́̇̂̒͌̑̍̔̐̔͛̾̓͛̊̿̑̆̽̄̃̎̔̆̃͑̂́͌̀̄̽̏̾̓̔̾̀̓̈́̓̅̓̔̎̐̾͐̓́̏̏͋̐́̋̄̃̇̈̂͛̍̌̈̄͛͋̆̇́͐̏̉͂̽̅͊̆͌̀̆̄̽͛̎́̐̎̒̉̽̎̾̑̎̍̐̔̾̾͂̽̈͆̏̽̉̉̈̒̾͑̍̾͒̏̾͆̂̇̒̑̅̌̅͋̋̔͋͑̌͌́̾͌̎͐̒̋̌̆̍̑̀͋͛̑̒̃̀̽̿̓͌͆̔̃̎́̏̀̀̎̃͛͐̿̄̇͊̿̀͆̇͋͛̀̋̽͑̄͗͌̍̍̀͑̒͑͋̎̄̓̌̓̏̍͑̿̔͐̑͋̔̽̀̄̑̋̋͐͗̉͆́̆̎̍̓́̆̏̅̂͊͆̅́́̈̂̄̿͋̄̏̐̂̅͛͗̐̍̎̄̎̃͂̈́̾͋̋͐̈́͛̃̐͐̒̅͆̍̒́̆͂̍̈́̍̇̒͌̈̐͌̃̊͂̐̐̏͂̾́͂͋͗́͒͗́̽͐̏̄̐̏̈͂̈́̔̓̎̈́̋̑̆̀́͗̔̌̀̀̑̂̃̿͆̃̔͒́͗͒̔̉̈̃͗͗͌̍̄̊̍̿̂̓̎̄̊͗͒̋͆̋̌̅̓̍́̎̂͗͂̄̔͗͛͒̄̐̈́̆͊̈́̍͑̍́͌̄̉͒̆͑͑̇̾̇̌̈̅̌̔̅͌̀̉̌́͛̀̓̓̈́̒̃̃̅͑̎̀̈̓͊͐͐͒̐̌̀̔͗͒̾̂̀͐͋͂̽͗͊̚̕̕͘̕͘̚̕̕͘̕̕̕̚̕͘̚̕͘̕̚͘͘͘̚̚̕͘͘̚̕̚͘͘̕̕͘̕̚͘̕̕̕̕̕͘̚̕͘̕̚͘͘̕͘͘͘̚͘̕͘͘͘̚̚̕͘̕̕̚͘͘̚͘̚̚̕̕̕͘͘͘̕̕̕͘͘̕̕̕͘̕͘̚̚̚̚̚̕̕̕͘̚̚̕̚̚̚͘̕̚̚̚̕̚̕̚͘̕͢͜͟͟͟͜͢͜͜͢͟͜͜͜͟͢͟͟͜͢͢͢͟͜͜͢͜͜͟͟͢͟͜͟͜͜͢͟͟͜͜͢͟͜͜͟͟͟͟͟͟͟͢͜͟͜͟͢͜͟͟͜͜͟͜͜͜͟͟͜͜͢͜͢͢͜͢͜͢͟͟͜͢͢͟͟͟͟͜͢͜͟͢͢͢͢͜͜͢͜͜͟͢͠͞͠͠͡͞͝͡͞͠͞͞͝͝͡͞͝͝͠͠͠͝͡͝͡͞͝͠͝͡͞͠͡͞͠͞͡͡͡͞͞͝͞͠͡͝͠͝͠͡͠͡͝͝͝͞͞͝͡͞͝͡͡͞͡͝͡͝͞͝͝͝͡͠͡͡͡͝͡͠͞͝͝͡͡͞͞͞͠͡͝͠͠͞͞͡͠͞͡͠͝͡͠͞͝͡͠͠͠͞͞͡͡͠͞͞͝͝͝͡͡͞͠͞͝͡͠͝͡͡͞͡͞͠͞͡͝͞͞͠͞͞͞͠͡͠͡͡͝͞ͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅņ̨̨̨̢̢̡̡̧̛̼͉̻͎̩͍̼̰͖̩̟̹̰̪̻̲̱̲͙̰̳̖͉̝̠̗̜͕̣̝̲͇̠̦͕̰͈̣̣͙̳͍͈͈̤̩̦̜̮̹̗͉̳̹̼̼̖̟̮̼̝̼̤͖̻͈͔͈̗̠̲͇̑̃͒̃̍̽̀̏̀́̃̿̋̊̈́̃̊̌̏̒̃̑̒̇̐̐͊͛̀͗͌̀̆̀͐̋͗̂̍̉́͛̇͛̅̓̇̿̾̽́͗̐̂͋̆̿͑̌̎͒̾̍̔́̾̍̋̌́͛̑̍͆͐̋̀̄͗͘̕̕͘̕͟͜͟͜͜͜͜͟͟͢͟͜͞͠͞͞͡͞͝͞ͅa̡̡̢̢̨̨̢̧̢̨̨̢̢̢̧̨̢̡̨̨̢̡̧̧̨̧̢̨̨̨̢̢̢̧̧̨̨̡̨̢̧̡̧̢̧̧̢̡̢̧̨̡̡̧̢̢̨̧̨̨̨̧̨̨̧̨̢̨̧̨̢̧̧̡̡̡̢̨̢̨̨̡̡̨̢̡̢̨̢̨̧̧̨̧̡̡̢̡̢̧̧̧̢̧̨̧̡̡̨̢̢̨̢̡̨̡̨̢̡̨̨̡̨̡̢̧̧̧̡̡̢̢̢̡̧̡̨̡̡̧̡̢̨̧̢̡̧̡̧̢̢̧̨̨̨̧̧̨̧̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̜̩͚͕̩̖̝̼͓͚͇̼͍͉̣̹̱͔̬̤͍̩̪̣̖͉̹̝̬͉̮̠̫̜̳̬̰̠͉̤̤̟͓͉͖̖̪̙͎̮̼̭͔̪̭͈͙̦͎̣̤̹̲̬̭͙͇̤̺̬̙̹̮̮̰͖̫̤͓̰̮̬̖͍̥̙̦̻̲̪̯͚̞͓̬̞̮̗͈͉̖͔̪̩̗̝̤̩͈̟̳̤͔̞̜̖̲͎̹͎̦̳̮̩͔̦͇̯̫͎̻̩̣̯̮̻̺͇̳̦̩̘̘͕̗̖̫̜͚̬͔̠͇̥̦͙̫̱͓̱̼̯̰͔͖̞̹͕̜̖̝̗̘̹̩̗̝̟̰̺̮̲̙̣̘͕̬͎̻̫͖͔̤̮̻͖͎͉̙̥̻̲̥̭͙͚͔̯͙̟̙̳̺̩͈̻͓͇͍̝͇̮͎̜̰̗̱̱̳̞͍̬͚̼̦̹͓̠̠̝̜͈̫̗͈͓̥̻͕͈̝͇̫͎͉̖͚̟̖͚̻̺͙̣̪̦̟͖̰̟͍̬̭̘̼͔̪͙̦͔͙̠̰͔̼͓̦̺̱̤͍͎̮̜͎̠͍͉͙̻͍͕̻̩͙̰̫̫̙̫͓̼̖̞̝͎̬̗̯̟̠̥̻̣̰̤͓̮͕͎̮̳̯̤͙͙̰̟̘̭͎̲̫͈̝͍̖̯͎͓̯̲̖̭͙̭̘̠̠̳̰̜̻̘̟̳̹̟̹̼͔͖͙̰̥͍̦̼̲̖͕̦̖̞͔̮͚̗͙͙̖̤̟͍̹̜̳͓̻̦̬͔̳̭͇̱̫̘͕͓̲͎͓͉͍̙̩̹̬̝̖̼̹̖̪̲͈͉̙̯͈͍̗͖͚̭̹̣͎̙̰̼͈̖͈̮̣̜͚̗͓͕̺̜͙̪͚̯̣̟͇̥͚̯̤͙̼̳̥̻̯̹̞̩͕͔͔̲̠̲̘̪͕̹͙̯̬̩̳̯͈̮̣̳̹̼̺͓̠̯̙̩̱͎̪̭̗̩̖̣̦̹̥̲͍̼̳̹͇͎̠̙̜̹͓̦̘̘͚̫̰̞̪̖̣̪̰̟͖̙̤̜͎̦̺̭̖͓̺̤̮̝͚̹̥̤̞̫̯͍̙̩̤͖̙̻̲̪̻̟̹̞̝͇͈̤̯̱̠̻̲̮̘͚͖̦̳̗̜͔̞̣͔̭̲͎̯̣̖̥͓͇̺̜͕̮͙̲̞̤̦̮͙̩̖̟̤͙͚̪͓̗̻̖̳̖̪͕̺̥̥̞͉̜͕̝͔̣̯̼̫̺̬̜̫̼̦͖̜̜͇̪̪̠͎͔͉͙̳͖̮̪̹͓̘̫̱͓̩̥̱̱̟̤̞̳̳͚̹̫͈̯̭̫̟̭̤̞̬̪̳̬̦̼̱̗̲͇͇̳̞̲̥͖͚̰̞͓͕̯̣̻̗̯̤̠̭̻̲̟͍̺̩͎͚̙̠̠̝͓͓̞̱̱͍̗̟͉̟͔͕͍̫̬̪̦͇̬̲͇̤̳̬̰̦̬̭̻̺̻̠̞̙͔̣̯̯̗̩̣̜͍͚͚̦͚̭̞̤͙̲͙͙̺̭̼̝̟̩̯̪̻̟͔̤̪̫̥̻̞̳̲͕̤̥̳͕̹̙͓͇͎͙̻̮̺̱̠͙̭͎͇̰͍̗̻̬̯̲̦̞͕̠̯̟̣̞̩͔̩̙͓̮̝̹̘̩͎̰͚͖̜̘̗̬̙̦̺̦̩̗̟̻̜̞̺̬͔͚̰̦̼̝͖̞̮͔̯̱͓̬͎̫̼͔̫͖͖͍̯̤̩͎͔̝̝̟̞̲̜̤̞̞̗̳̖͚͎̘̖͖̞̬̟͉̮̮̮̼͈͇̰͎͚͍̠͉̝̘̤͎̰͉̠͔͈̘̤͙͉͍͓̘͚͕̻̖̗̪̠̠̝̯̯̭̩̫̞̳͈̠̭̲͖̝̖̺̤̳̤̺͕̙͚͕̪̙̖͔̖̞̠̥̗̜̙͈̠̲̯̯̩̮̗̣͖̤͙̜̟̪͉̥̞̻̦̻̠̦͕̱̣͍̘͈̩̘͉͚̱͔̱̪̹̬̼̲̼̜̻̺̘͉̻͓̟͖̦̹̘͖̘̠̩̫̩̦͙̠̠̗̳̺̫͙̜̩̩̮̻͙̜͉̟̣̣̲̹̙̲͙̻͎̙͈͓͔̖̠̯̝̥͈͇͇̙̳̝̳͇͎̣̳͚̫̘̦͖̮̬̗͙̤̗̱̣̖̱̮̦̯͔̫̮̞̰͉̥̫̜͕̭̱͔̮̗͔͍̟̻̖̘̬̩̫̰̗͖̖̣̳͓̻̠̥̜̼͓͉͉̱̳̯̤̝͕̮̺̦͈͇͙̹͎͔͇͇̬̠͍̪̭̯͙̟̲͙̦̲̙͎̤͓̪̹͕̳͕͇̤̥͓͉͕̤̙̪͔̺͇͙͉̼̯͖̱͚̭̼͍̲͎̣͕͍̗̤͓̦͉̻̻̗̺͕̜͕͉͎͖̹̟̼̳̱̮̗̻̰̠̱̰̬̞̣̳̻̟̟̠͉̠̯̰̟̟̭̭̣͍͎̰̗̣̱̝͉͈̮̼͙̬͔̗͈̖̪͔̣̥̲̫̠̱̪͔̜͍̝̭͎̘̻̯͓̤̦͉̥̞͕͉͎̤̟̥͖̠͖͔̙̟͎̘͕̼̞̱͔̟̹̪͚̰͔͈̲̰̤̺̞̼̣̝͉̳̻̺̫̤̮̺͓͇͙͖̰̞͎̝̲̜̪̲̰̼̗̝̦͓̪̦̰͚̹̬̥̱͈̦͖̟̩̙͕͇̘̹̙̼̝͈̳̖͚͖̻̬̬̼̼̩̩̭̼̣̳̪̳̬̰̗̤̙̯͍͓̖͓̻̲̪̪̣̣͚͕̗̲̬̙̟̼̳̮̠̻͔͕̰̞̠̠̭̘̹̳̙͈̖͓͚͚͈̪̝̮̳̗̹͉͖͓͖̘͖̫̘͈͓͇͎͎̠̭̺̗͖̥̖̫̹͉̮̗̜͙̥̺͍̪͚̹̯̻͉̻̜̯̣͓͕̞̻̝̹̗̹͕͚͔̘̥̮̻͙͓̣͖̝̯̠̫͓̻̼̤̜͇͓̻̲̠̲̭̤̯̤͓̬͕͔͎͍̮͎̦̹̬̳͈̳̩̙̠̖̲̹̹̘͕̠͔͎͓̟̣͉̲͙̪͉̜͙̹̰̲̤͈̬̳͓̜̭͚͎͇̫͓̣̤͕̝͉̠̻̲̰̪̗̬̜̦͙̩͇̩͎̱̫̝̞̘̥̙̺̳̥̯͕̦͓̜̭͓̣̯̰̜̩̼̟̟͎͖͈̯͙̹̻̼̩̮̝̭̯͇̮̱̼̱͕͎͇̤̳̲͔̤͔͚̥̦̤̱̭̻̼̲͎̼͔̱͔̰̜̤̜̦͖̗̮͖̜͓̝̫͉̗̱̜̣͕͕͖͍͖̲͓͇͔̝̬͍̪̝̫̲̞͎͔͈͇̘̱̦̟̫̣̩̻̼͇͎̳̖̪͚͉͇͉̤͓̠̲̭̞̦̦̹͋̎͐́͊̇̔͌͆̓̈̅́́̓̀̅̒̌͂͂̆͆̏̏̋́͋̀̌̑̍̀̍̈́̾͆̆͊̊̿̔̀̓̄̒͑̓͊̂́̈̀͂̑̀̃̾̓̄̋̈́͐̌̔͗̌̋̈́̆̍̐̃̈́̓͋̾̋̽͂̇̌̾̋̔̈́̀̐̈́̋͛̿͛͗̈́̑̿́́̓̈́̉͛̌͗̊̉͋̊̾̿͆̑̌̋̌̄̊̐̀̂͗̓̇̂͑̑̓̌̒̂̀͒̂̆̄̃̓̍͂̃̎̿̆͊̉̎̈́̌̑̋͂̎̀͊̅̋͐́͑̿̈́̽͌̈͗́̅̒́̑͒̽̽͋̅͌́̆̈̓́̊̏͗̒̌̋͑̈́́͊͒͂̏̐̂͋͒̀͊͋͐̃͐̍͒͆͑̍̒̋̄͐̏̇̌̌̔̌̒̂̊͊͌͂̐̿͌̅̓̈͒͊͑͗̐̽̿͛̓̑̍̿̌́̿͌̽̌̈̊͑͑̓́̈́̍̀̽̊̓̏͆̏̂͗̊͊̐̀͋̀̀̌̉͗̒̒̆̊̐̆̅̅͌̇́͌͐̀̈́̅͛͆̋́̽͐͊̌̈̋̂̀̀̒̊̎́̔͌̄͗̏̓͐̿̽̊̓̈̃̓̂̎͐́̀̑̀̑̀̎̍̇̐̒́̍͌̑͗̆͊̓͊͂̋̅͆͑́͐̄̉̉̆̐̽̐́͒̈́̋̾̍̐͑̅̊͗̏̈̽̇̂̈̈́̓̀̆̑́̉͂̏̄̔̒̔̌͗̾̄̒̈́͗̈́̒̄̋̿̄̈̓͛͗̈́̄́̇̂̄̐̔̆̿̈̽́̏̃̎̑̋̿̏͋̄̃͑̓͊͗̒̾͗̉̎́͒̾̃̊̀́̈́͊͆̃͆̓͒͂͌̈́̒͌͑̈̄͊̓̔̆̑̏̈́̓͑̎̄͊̐͆͒͂͌͊̓͊̒̈́̇̿͌͂̔̂̾͛̔͑͛̂̈̌̌̋̈͋̆̋̌͊͆͂̐̈͊͆͑̔͆̅̊̀̄͊͛͋͂̈́͋̎͒̎͑̐̇̌͛̿͌̂̋̿̓͒̓͛̇̅̐̃̉̅̍̆̇̽́̊̏͛̆͒̊̍͂̀͗̉͒̅͋͋̋̃̓̑́̒̀̀͛͂̀́̿̓̋̍̑̽̔̅͒̍̈́̆͛̆̃̋̓́̆́͑̀̓̊̿͂́̉̓͊̀̅̓̍̉͛̍̂͌̅̓̄͆͂͒̑̆͊̌̇̔̑̍̀͆̿͐̉̾͆̉͊̒̈́̿̂̏̓̉̿̃̔͐̾̀̌͗̾͐̂̌̏̀̅͆͊͆́̑̆͂̉̃͒́̋̊̍͌̆̓̔̽̈́̄͐̆͌́̌͊͌̐̔̀͑́̅̍̀̎́̂͑̈̌̉͊͒̿̈̍͛́̽͊͌͆̀̉̆̃̊̀̔͛̋̔̌̎̓̃͛̆͆̇̈́̒̂̊̇̆̀͒̿̓͌̂̇̀̈͊̍̋̒̂̀̏͊̀̎̑͛̿̆̓̍̉̉̔̊͌̓̾̒̌͊́̽͊̐̑̅́̈͐̊͛͆̒̎̈́͋̊́̃̃̈́̈̀̄̽̔̏̃́̊̾̌̐̈́̎͛̑̽̂͋̓̀̐̈́̀̒͛͒̉̌̊̋̋͌͐̑͋̅̈͌̑̅͐̅̅̓͋̒͌̾̍̾͌̊̎̒̈́͆̇́̓̽͂̎̑̋̈̔̒̃͆̔͂͋̅̌̇̄̓̌̆͊̂̑͌͗͒̉̿͋̅́̎̈͊̃̎̿͗̔͛̎̾̿̑͛̏̏́̐́̃̄̀͗́̈̈́͊̑̆͛̀̿͌̋̇͂̄̈̃̉̓͐̏̿͂̏̎̈̏̋̽͗̎͒́̈̌̈́̐̈̌̒̀̇̄͛̎̊̔͌̍̋̈́̈́̾̇̓̎̊̏̋͗̏̿͆̄̊̅͐͒̋͑̄̂̑̌̈̊̆̈́̑́̀͊͆̆͊̍̎́̑͐̋͐͗̈́͊͒́̾͌͂͐̒̍̏́̆͒̃͊̅̑̏̒͂̌́̔̌̔́͛̉̾͊͗͒̋͛͛̅̌́͛̂̎́̊͂͊͋̊̂́̌̍̀͊̑͋̾͑̋̀̒̅́̄̋̌̋͊̒̒͌͛͂͒̃̀̂̎͛͂́́͐̄̈̔́̓͐̍̾̀̓̔̑͊̓̆̎̓̆͗̋̊̅̓͌̒̉͊͊͆̆̿̓͗̿̀͑̓̓͂̓̃̓́̈̔̆͑̾̋̋̇̽̎̎̑͆̾̐̈́͌̃͑́͌̅̈́̽̈́̿̈͗͐̀͂́̆͆͑́̉͑̀̑̇̓̊̔̓̔́͆̒͑̃̐͂̽̋͌̅͑̾͗̑̿̈̒̍̊̀̑̓̏̇̽̊͗̀̓̅̊̌́̊̎͐̋̍̎́̒̅̃̔̈́̍̔͗͒̊͌͂́̀̊̌̽̀͗̏̊̋̽͊̑̉̐̉̐̐̓̅͑͋͐̋͗̈̒͆͌͂̊̄̑͂́̓̏̐̽́͛̒͂͌͂̈͆̃́͒̉̽̀̌͛̿̄́̉̊͊̂̎̎̀͋̓̋̐̐̓̽̆̇̽̐́̾̉̇̋̍̈̆̑̉̿̉͒͑̋̏̒̿̉̿͊̋́̐͑͋̀̽̐́͆́̆̈̀̌̎̾͗̃͂̽̊̈́́̑̈́̍̌͗̔͋̐̌̾̾̈͗͂͒́̏̉̽̒̋̐̀́̉͌͛̽̒̍͆̓͆͐̎̆̓̑̂̾̂͂̋̅̐́̐̐̈́̑̈͆́͒̊̅́̀͛͑̏͛̓̿͂̍̿̉̿̇̉̀̊̆̎̃̏͑̔͆͌̄͌̏̔̃̽͛̓͊͋̏̉͒̔͋̄́̄͗̀̈́͛͊̓̉́̈̔͆̀͑̽̅̓́̀̈̀̋͊̎̓̉͆͋̋̂́̈́̔͗̒͛́̂̇̊̓̅̋́̾̈́̆͒͑̇̃̏̿̑̀̎͗̓̄̀̃̄̎͑̽̀̄̀̐̏̔̋̎̔̋̆́̐̂́̓̈̂̽͌̔͒̂̋͂̃̈́͛̇͑̓͑̋̏͊͛͑̒̑͂̉͊̔͗͂͒̓̓͑̌͒̅̏̌̿̓̓͆͆͂͑͋͒̓̏̈́̉̆̅͂̀̂̀͒̓̒̌̃̑̿̈́̓̇́̈́̃͊̈̆̿̓̓́͐̑͐̎̇̎̐̓́̐͐͆̑̿̿̀̀̒̃̋͆̽̆̈́̉̈́͆̏̈͂́͒͑̔͒͊̌̽́͛̒́̐͐̈́̃̾͋̽͗͛͋̿̍̒̂͑̎̋͗͗̑͋̄̄͗͛͑͐̀̊̾͗͐̆͌̿̈̇̃̓͒͊̍̾́̆̔̍͂̂̾̀̒̒̂̆̆͌̈̏͑͋͊͗͆̇̌̀͛̆͒̃̋̀͊̾̊̐̓͋̊̓͑̀̋̓̓̚̕̕̕̕͘͘̕̚̕͘̚̕͘̕̕͘͘͘̚̚̚͘̕̚͘̕͘̚̕̚̕̚̕̕̕̕̚̕̚͘̕̚̚̕̕͘̕̚̚͘̚͘̕̕̕͘̕͘̚̕͘̚̚͘̚͘̕̕͘͘̚̚͘͘̕͘͘͘̚̚̚̕̕̕͘̚͘̚͘͘̕̕̕̕̚̕̕̚̚̕͘̕̚̕̕̚͘͘̚̚͘̕͘̚̕͘̚͘̕̚͘͘͘͘͘̕̚̚̚͢͢͜͢͢͢͜͢͢͢͟͢͢͢͟͟͜͟͟͢͜͟͟͢͢͟͜͟͟͜͜͜͜͜͢͟͜͟͟͜͟͟͟͢͜͟͟͜͜͜͜͟͢͜͜͟͜͜͢͜͜͟͢͜͜͟͜͢͢͢͢͢͢͟͟͢͜͜͟͢͢͢͢͜͢͢͜͢͟͜͟͢͜͜͜͜͢͢͢͜͜͜͢͟͟͜͟͜͟͢͜͟͜͜͟͜͜͢͟͟͟͟͢͟͟͟͜͢͟͜͟͢͟͜͟͜͜͜͢͟͢͢͟͟͟͟͟͟͜͟͢͜͟͜͜͜͟͟͞͡͝͝͡͠͠͠͞͡͡͡͠͝͡͞͠͠͝͡͞͝͝͝͠͝͠͞͡͝͝͠͡͠͞͠͡͝͝͠͝͞͝͝͞͡͡͠͠͠͡͞͠͝͞͝͞͝͠͠͝͝͞͞͞͞͞͞͝͡͡͝͝͝͡͝͠͞͝͠͝͠͝͞͠͠͝͝͞͞͠͞͞͠͠͞͞͠͞͞͠͡͝͞͡͡͞͠͞͞͞͠͡͡͞͞͝͝͝͞͠͝͡͝͞͝͡͡͠͡͝͠͠͡͞͡͡͠͠͝͞͡͠͝͝͞͝͝͠͠͝͠͠͡͞͡͝͝͝͝͠͝͝͡͝͞͞͞͠͞͠͡ͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅr̡̧̨̡̨̨̡̨̢̢̡̡̧̢̧̡̡̡̨̧̨̡̡̢̨̡̢̧̢̢̢̧̧̧̢̢̧̧̢̨̧̡̡̡̡̨̧̨̨̢̡̧̢̡̨̧̨̢̧̢̧̧̧̨̨̡̨̨̨̧̡̢̢̧̢̨̨̧̧̨̨̡̧̢̧̡̢̡̧̢̡̧̨̡̨̨̡̨̧̧̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̖̤̘̳͔̦̤̲͍̠̬͎̹̣̞̟͚̻̞̼͉̝͇̼̯̬͕̻͉̯̝̞͇̠̦͙͉̜̮̣͍͈̞̘̲̬̩̗͙̖̫̝̦͖̖͔̪̲̜̠̮͙͓͉̖̫͇̳̩̱̩̟̙͈̭͍̰̼̘̳̥̱͙̼̦̰̦̦̞̙̬͈̘͍̜̥̟͔̲̲̤͔̯̥̣̙͍̟̙̹̝͈͇͉̮̰͖̺̫̙̜͓̼̘̟̝̹̤̮̲̺̱̘͔̦̫̮̞̻̜̤͎͈͇̺̰̻̝̫͖̙̥̝̼̻͔͕̦̩͇͕̩͖̩̙̼̮̥̲̫̟̘̗̝͍̦̲̱̮̬̗̪͍͍͉̳̣̦̥͖̙̝̱͎̟͕̳̣̯̲̩̰̠̱͓̜̣̲̤̪̪̥̰̦̟̗̖̺̠̼̗͍͓̮̯͈̗̥͓̩̜̮̼̠̬̪̯͓̜̪͇̩͈̞̺͓̖̪̦̼̖͈͓͙͈̦̩̳͙̺̦̘͎͕̤͓̭̗̻̪͓̹̟̘͖̘͍͍͍͖̲͇͓̤͈̻̜̤̤̺̜̱̦̹͙͔̤͎̣͍͕͎͉̤̠͕͍̩̜͈̣͉͈̪͕͕̮̞̪̝̣̤̥̝̬͚͙͚͇̼̺͙̜̟̠̘̱̼͍͖̜͇͖͚̮͇̳̣̮͖̪̖̫̗͓̱̖̣͚͔̩͚͙̺͉̬̫͍̭͈͉͓̤̤̺͓͉̳͖͙̼̰̜̣̯͙̖̗̤̤̬͎͉̠̜̫̥͇̠̱̜̫̮͙̳̗̼̙͈͍̩̝̤͔̞͙͎̹͈͖̟̺̠̞̜̼̱̮͕̣̱̦͍̠̭͓̱̼̙̻̠̬̹̘͈̤̱͈̳͓͍̥͔͎̰͇̻͔̘̭͔͔͕͇̤͖͇̗̪̰̗̭̬̦͇̰̠̙̯̺̼͈̼͔͖͓̪̱͎̠̤̙̪͖̼͚̯̗̳̪̟̣̞̪̝͙̻̱̖̫̬͙̖̥̫͎͚͚̼̳̩͇̤̤̲̦̗͖̫̘̹͖̼̣̣̰̖̼̣̼̳̜͚̪̥͖̼̫͚̬͉̥͖͓̠̻̘̮̫͙̪͎̮͖͎͇̖͍͚͙̲̦͎͕̪̟̺̞̤̮̖̭̟̟͙͚̥͚͚̻̣̭̜̝͕̤̣̙̪̱̪̲͈̪̱̙̠̼̬͍̭͍̯̩̗͙̺͔̣̮̬̤̰͇͙̳͖̲̳̭̖̯̖̹̙̰̗͙̤̥̪̣̣͔̲̣̳͉̮̤̟̪̬͉̬̗͉͙͇̳̰̼̞̞̪̱̰̭͙̙̜̣̠̙̖̹͇͓̟̘͉͚̩̲͉̲̠̭̞̩̼͕̖̤̠̩̘̻̟͈̹̝̥͍̫͓͖͓̠̼͓̖͕͙̹̲̯̘̙̦͚̪̫̘͚͖̘̳̝̭̰͈̜̙̼̦͕̟̝̝͈͎̥̖̖̥̹̭̞̝̯̪̳͕̥̯̲̥̥̱̜͚̠͙͇͇͍̦̫̮͇̲͖̗͔̹̰̝̫̘̭͇̬͙͕͍͕̦̫̳̯͈͇̩͇̩̹̲͉̩͎̖͖̭̜̣͓̖̰̺̘̘̝̙̰̗͎̙̘̣̼͓̘͖̳̤̻̥̹̖͔͔̺̗̞̹͕͔̘̭̦͇͔̻͎̰͓̙͖̣̳͍̞̤͙͖̼̼͙̺̳̥͇̙̤̦̳̝͈̺͔͉̥̭̹̖̦̼͍͓̺͓͕̜̼̭̭̯̙̼͖̐͛̈́̓̄̂̓̏̽͂̆͐͛̔͊̆̑̎̋̒̍̈́̐͒͌͗͐̈̒̌́͆̿̾͑͑͊͌͌̄͆̔̀͂͌̂͛̊̇̐͂̄̈̿̊́̌̋͂͆̓͑͛̄̍̃̓̾͆̔̇̀̍́̓͐̀͋̎͋̎̓́̈́͊̔͒̊̔̈̌͋̂̔̏̌͐̒̎̍̔̇̑̂͂̔͆͆̇̇̆͐̄̀͊̌̈͆̉̾̈̏̂̈́̔̒̓̀͗̓̌̓͂̿͌͒̀̓͆͂̍̀̑̂̅̋̀͊́͗͗͋̈̋̌̃̽̈͗̾̆̑̈̓́͑͛͌͑̈̐̽̄͑͐̑͆͆͛͆̆̎̀͌̎̽̅͌̊͂̓̅̀̒͑̄̆͆̐̈́̌͐̆̈̏̀́͌͋̾̀͌̾̽̏̔̊̓́̋͆͒̎͌̀̂̆̂͂̇̎́͆͊͊̉̓̾̅̌̿̂̽̄̅̄̈́̓̍̆̋̉̽͑͆̓͒̀̆̓̒̃͆̏̽̓̋͑̌̏̌͊̆̀͋̒̂̓̇̿̏̃̓͑̂̊͒̉͑͐̀̓͒̓̓̌͗̾̈́̎̀͂͋̒͛̊͛͆͒̈́̎́̎̋́̍͌̎̈́́̏͂̋̍̆͌̾̊̊̍̂͋̈́̓̃͊̔͊̔̍͂̓̀̊͋̆̀̊̆̂̎̊͋̍͊̈́͗̋͗̉͆͐̓̑̍́͋̾̉̏͛̋̆͂̊͒͑̊̈̿̈́́̑̒̊͒̀͊̓̽́̔̈̊̋̽̽͋̓͐̓̋͋̎̓̑͛̋̅͐̀̈́̄̊̐̇̉̄̾̃̓͗̄͋̿̅̒̿̍̀̍̿́̑́̒͆̍̀́͂̾̊͗̇̂̆̌̊͂̾͆̏̍̐̑̈́́͛̆̑̀̒̄̔̈͋̈͗̃̿͋̏̾̒́̿̓͗̉͆̒͊̂͊̽͑͌̋̀̔̅͛͋̓̂̊͌͐̊́̄̌̀̌̀͒͐͊̂́̈́̀̄́̽̂̂̎̐̊̃͊̽̀̔̂͛̀̇̅͑́́̉̄̈́̾̊́͊̾̍̂̀̔͋͂͊̌̾̎̉̈́̈́̅̅͋̆̄̊̅̐̿̆̿͗̾͗̐̿̍́̿̃̂̍̃̊̑͊̊̅̑̐̑̒͑́̌̓̊̒̃͌̽̄̂̈́̔͊͑͐͐́̃̇̐̑̂̿̏̍̓͂̂̐͛̇͊̐̎̀̔̈́̒͂̀͋̌̿̋̋̀͌̅̌̇́́͌͌̂̀̀̌̾̾͐̒̐̈̒͌̍̃̀͛̉̓̐̎͒̀̏̂̄̔͗̉̓͛͋͆̈́̃̏͊͐̆̽͗̑́͂̔̏̆̀̾̇͗́̈́̓̀͆̈́̑̇̒́̍̈͂͆̂̇̿̅͋̃̈̾́͊́͋͛̓̊̇̀̓̊̓͋̏̄̆͛̈̔̏͐̏̎̑̂́̌̃̽̇̒̑̀͑̄͌̉̅̈́̔͐͆͒͆̆́̍͂̏̿͋͊̋̑̌̇̋͑̎̑̐͌̌̋͐͂̅̇̔͊̂̃̍̃̐̾͗̄͛̐̀͊̉̋̂̊͛͑̐̇̿̆͐̉̉̐̓̌̀̍̈́̔͑̏̍͒͑͒̈̀̍͐́̉̓̉͗́͊̎́͑̽́̃͐̏̀̃̍̉́́͊̏͌̈́͂̎̂̿̂̃͂͂̓̉͊̽̅́̉̓̃̓̉̄̌̾̀͛̒̅̂̒͋͌͐̅̿̌̇́̏̅̉̇̌͐͋͆̓̎̋̒̀̕̚̕͘̚͘̕͘͘̕̕̕͘̚̚͘͘̚̕͘̚̚̕̕̕̚̚͘̚͘͘͘̚̕̕̚̕̚͘̚̕͘͘̕̚̕͘̚͘͘̚̚̕̚̕̕̕͘̕̚̚̚͟͢͢͟͟͢͟͜͟͢͢͢͟͟͜͜͜͢͟͢͜͟͜͢͜͟͢͟͜͟͟͟͜͜͢͢͜͜͢͢͟͢͟͢͟͜͜͢͢͜͟͢͢͢͢͢͢͟͟͟͢͢͟͜͢͜͜͞͞͝͞͝͞͡͞͡͞͠͡͡͡͡͞͞͝͡͡͠͠͞͠͠͝͝͝͝͝͡͠͠͞͞͝͡͠͝͝͝͡͞͠͡͡͠͞͝͝͞͝͞͞͝͠͞͠͝͝͡͞͞͝͡͞͞͠͠͡͠͝͝͡͞͝͞͞͝͝͠͞͠͞͝͝͠͞͝͝͝͝͠͠͞͡͠͡ͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅc̢̢̢̧̨̨̡̧̧̡̡̧̡̨̡̡̢̢̨̢̧̡̢̧̨̨̢̡̨̧̧̡̢̡̨̡̧̧̡̢̧̡̢̨̡̧̧̡̧̡̡̨̡̢̢̨̡̧̨̨̨̧̢̡̨̡̧̡̡̨̧̨̧̡̨̡̢̨̡̧̢̢̧̢̡̧̡̨̡̨̡̡̡̢̢̧̢̨̨̡̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛͍͍͎͚̞̱̼̲̪̳͈͖̫̮̟͎̠̖̻̟͕͙͖̱̲̬͙͈̝̣̳͍̰̱̳̯͈͔̯̭͚̹͈͇͇̼̤͇̜̥̹̩͉̳̖͓̪͙̣͖̖̝̪̭̯̖̟̦͉̞̠̺̭͇͙͇̻̱͍̲̜͓̯̥̩͓̥̳̼̤̮̹̹͍̼̪̗̦̱͙̻̳̱͔͇̭̝̭͉͔̮̘̖̘̥̙̯͍͚̮̫̗̼͖̞̣̩͈̘̝̖̪͙̲̠̬̘͓̝͈̬̠̲͚͕̜̮̼͚̞̞̥̹̱͔̥̞̙̦̱̠͕̮̮͍͎̟͎̱̪̠̻̤̼̳̭͓͍͚̺̻̼̹̘̱̣̞͎͙͕̲̻̻̻͉̗͙̺̥̺͍̜͈͚̬̱͖͎͖̻̳̘͚̙̭̯̰͎̠̳͍̥̦̦̗̩̜̱͖̗̺̦̗̲̲͇̭̞͔͙̭͈̜̮͓̘͇̤̞̖̮̖͕͇͉͔̱̹̦̹͎̟̜̞̪̞̹͙͖̩͚̯͉̭̭̮̞̤͚̤̱̝̠̫̭͈̬͍̦͔̯̙̱̖̩̦͉͉̝̖̳̘͍̥͎̯̺͕̰̜͚͙̘̳̯͓̬̙̘͉̺̭̙͍̩̟̣͍̤̼͎̝̮̪̞̠̹̩̹͖̠̜͍̭̲̖̝͈̖͙̩̥̰̤̳͇̯͎̖̙̤̩̟̪͓̘͇̭͙̻̼̟̯̱͎̟̻̟͖̺̝͍̝͎͙͕̙̺̩͚̜̪͓̹͕̩̹͓̲̦̳̜͎̪̪͎̣̩̰̗̼̗̰̜̯̯̣̘͉̮͔̰̯͚̦̥͚͉̼̘̺̩̰̘̘͓͉͖͙͍͎̟̥̩̻͉̱̩͈͕̰͙̤͕̖̥̙̥̲̙̘̠̬͔̖̟̟̼̭̝̟̹̻̤͖͖̫̲̻̭̟̝̻̜̘͈̘̱͕͔͚͓̼̦̘͖͇̱͎̞̯̪͓̜̟͍̪̼̝͉͔̜̝̬̰̰̼̭̹̣͔̫̦͙̼̻͉̜̟̮̣͕̮͈̙̖͓̳̯̮͈̦̤̙͈̹̻̞̗̯̖͓̘̖̱͕̗̰̻͓̱̳͉̳̻̩̪̞̩̼̩͕̪̦̤̳̮̬̦̗̜̺̬̻͓̱̭͙̲͇̻͙̞̙̞̖̯̭͉̩̥͚̫̘͙͔̼̖̻̻͇̲̟̱̰̥̣̞͉̹̭͕͉͍̬̮̳͍̱͈̭͚̫͍͍̭͉̬̯͎̬̺̭͕̮̱̝̰̻̯̘̲̝͕͚͎̞̟̞̗͉̘̥͔̫̞̣̣͔̦͕̩̞̭̠̝̟͎̮̞̟͔̩͔̥̳̣̱͍̯̟͖̗͉͈̜͇̞̜̞͍̮̯͉̗̦͙̺͉͇͖̣̳͎͙̯̮͍̮͓̬͕͉͚̳̭̠̩͔͔̲̜̙̳͍̮̝̹̯̮͕̱̖̥̭̖̖̦͇̲̬̩̤̰̖̗̫̘̺̗͈̪̗̟̠͙̬͎͙̯̼̫̲̬͕͓̮͎̰̺̩̪̭̺̦͔̹̝̩̜͙̺̦̯̹̺͓̣̯̗͉͓̪̺͈̦̬͈̟̩̼̗̜̱͙̟̻̲̤̩̫̤͇̘͕̣̗͓͕͙̤̠̗̠̟͙̼̦̭̘̥̰̳̝̭̣̼͔͈̤̲̬͓̮̫͍̪̙͈̗͓͍͙̝͚̦̣̳̪̺̹̤̹̬͉͍̲͚͈̘̠̹̤̙̖̼̪̰̦̺̰͇̻̮̙̠̺̣͓͖͙̮͍̯̭̫̫̟͈̩̣͙͇͚̙̥͛̿͐̽̾͌́̓̀̀͆̂̊̾̽̆̋̈́̍͊͋̔̌̅̉̉͒̎̈͋̔̐͊̏̏̓̓̎͑̃̾̊̍͒̽̎̋̊̓̓͒̎̒͐͂͛̈́̾̎̔̈̐͂̒̒̔̅̊̓͋̆̄͐̍̉͊̄̈́́͂͒̓̔͌͛̄́̈͌̿̍̈́̾̔̑̊̀̉̾͋̍̀̀̐̇̽̈́̓̄̀̏́̀͊̌́̄̾͑̏͋͂́̀̔̄̅̋̇̒̊́̀̅͑̍͐͋̇̈́̀̈́͌̈́̔̒̽̽́̓̒̀̀͑̒̌̀͆́̐̍̓́̀͒̂͑̆̄́̍̍̾́̅̓̃͋̀͋͋͒̃̒̋̃̐̄̎̊͋̓̀̎̓̂̄̿̐̅̔́̇̋͗͛͑̊͐̄̆́̅̽̌̎́̅̂̂̌́̀͒͛̊̓͒̿̊̆͂̃͛̓̽͛̾̇͌́̈́͋̔̓͐̌̀̓͗̇͋̅͂̍͌̎̂̄͒͛̂́͒̍̈̈̾͐͊́͌̎̀͋̎́̽̎͑̈͊̎̓̊̔̅̓̂̆̀͊̌̑̀̀́́̄͗̐͑̃̂̂̍̍͂̔̃̇́͂̌͂̀͗͒̾̔͂͛̅͋̊̒̈́͗̀̓̑͊̐̈́̈̿̔͌̀́́͒̿̎́͌̐̀̽͒͆̀̅̅̽̓̾̑̂͑̃̾͛̀̀͗͐͌̀̾̌͑̽̇̄̿̀̏̿̎͆̄͊̀̌̓̾̋̓͐̀̌͒̓͑̊̊̈͊̏͗̂̎͌̉̏́̉͂̊̈́̈́́̏̂̍̍̃̀́͐̂̉̽̂̇̒͌̽̅͊̔̋͂͗̊͆̉̀̿̌͒̊͛́̔͌̔͊͛̂̽̒̒̂̔̑̾́͛̑͐̌̈̑̅̇̉̌̀͛̓̈͛͆̾͌̐̒́̉̐́̊̃̆̓̄̾͑̾̃͌͌͌̃̑̈̇̆̐̅̎̐̏̊͋͊͗̅͑͂̍͗͗́͊́͗̉̏̀̿̾͊͒̑̐̇̽̾̀͒̀̌͑̿̾̌͂͗̌͗̂̆̀̂̇̔̃͒̔̍̽͂͗͆͂̍̽̈́̃͑̂̃͂̌͌̈̏͊̋͌̎̔͗͌̉͛͐̑̔͒͊̊͐̆͒̉̅́̄̽̊̽̀̆͆̔͛̌̿͂͗͛̀̏͗̌̾͆̆̾̅͛̃͂̇̿̐̊̎̆̑͒͐͊̂̿̽̂͊̇̒̓͗͑̈̓͊̽̋͐́̏̂̆̽̋͗͒̆͑́́̑̃͑̇̒͆̆̏̔̇͑̅̔̎̓̏͌̉̒̋̒̑̒́̿̐̐̂̿̑̃͂̆͋͆͛̀͑̈́̈̓̌͒͆̊̊̑͌̆͐͑͐̾̽̾̏̈́̅̈̍̄͌́̒̀̒̇̀̈̏̿̾̈́̾̾͛̅̿̉͗̉̓̽̄̽̄̿̀̊̎̾͌͒̎̄̀̈́͒̒̒͂̈́̈́̀̋̎̃̌̃̒̓̈̅̿̉͑̋͛͑́̽̀̑̍̀͊̒̀͑̏̉̾͋̈̎͋͌͆̍̈̅̓̑́͊̍͑̎̌̈̎̀͑̏͂̑̅̉͒̉͗͗̈́͒̽́̈͒͂̓̐͂̃̉̅̎̀̑̀͆̀̀̇̽̈̅̀̂̈̅͋͐̈́͌͆̔̓͐͛̽̔̊͊̍͗̌̏̿͋̌̄́͋̔͑́̃͋͒͒̃̐̓̅͂̍̑̃̍̅̈͛͂͌͐̋̂̀̀͂̽̎̍̒̃̂̓̈͐̈̓̃̏͋̄́̿̏̇͐̓̆̏̋̔̓̾̂͊̉͑̑̀̏͗͆̽̚͘̕̕̚͘͘̚̚̕̚̚̚͘͘̕̕̚̚̚͘̕͘͘̕̚͘͘̕͘̕͘̚͘̕͘̕̕̕͘̕͘͘̕͘̕͘̕̕͘̕̕͘̚̕̚̕̕̕̕̕̚̚͘͢͜͢͜͜͢͟͜͟͢͢͢͜͟͟͢͢͢͟͜͜͜͟͜͢͜͜͢͢͜͜͢͜͟͢͟͜͢͟͢͟͟͟͢͜͜͟͜͟͜͜͜͜͢͟͟͢͟͢͟͜͢͜͜͟͟͢͜͜͟͜͟͟͟͢͟͟͢͞͝͠͝͠͠͡͠͞͠͞͡͡͝͝͝͡͡͞͠͡͡͝͠͠͞͝͠͠͠͡͝͝͠͡͝͞͞͝͡͝͞͡͠͝͡͝͠͝͝͠͝͝͠͞͝͡͞͝͠͠͡͝͞͡͠͠͡͝͞͠͠͞͝͝͠͝͝͡͝͝͡͡͠͞͠͠͠͠͠ͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅḩ̡̨̧̡̧̨̧̧̡̨̨̧̡̢̡̡̡̢̨̨̨̢̢̢̨̧̡̧̡̨̢̢̡̨̨̧̨̢̡̨̧̨̡̨̧̡̡̨̨̧̨̢̧̧̧̢̡̡̡̢̢̧̢̨̨̡̡̧̡̢̨̧̢̡̢̡̡̡̨̧̢̢̨̡̧̧̨̧̨̢̧̢̢̢̢̢̧̨̢̨̨̨̨̡̢̧̢̡̢̨̨̢̨̧̨̨̨̧̡̡̡̢̢̡̧̧̡̨̢̧̡̡̨̢̢̢̡̨̡̧̢̡̧̢̡̧̧̧̡̢̡̨̨̨̢̧̢̢̧̡̧̨̢̢̡̧̡̧̨̢̡̡̧̡̨̡̡̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛͚̯̩͔͓̠̠̦͙͇̟̣̪̦̜̯̱͖̪̙̞̲̹̟̦̦͚̠͕̭͙̱͙̣̝̖̘̠̞̺̙̝͉̦̘͍̥͉͖̘̮̖̗̠̖͚̜̺̦͈̼̖̺̳͉̦̬̫̪̞͖̖͇̩̣̬̳̼̬̖͙̟͈̥̥̟̪̫͖̫̠̥̺̫̖͔̺͓̱͖̲̱͎̭̬͈̰̭͖̘̳̘͓͕̬͕̘̘̬̰͍̞͍͍̭̝͙̹̪͚̤̫͓̮͈̖͔̜̭̣̜̱̘͔̫̳͕͔̹͙͉̥̙̬̥̞͈̩̞͙̬̯̯̘̘̱̫̟̭͚̬̺̠̳̦͚̲̯͈͎̻̘̰̲̗̟̥͖̗̙͓͙̻̼͍͈̳̻͚̥̤̖̰̜̦̪̞̻̟̘̻̤͖̺͍͎̭͚͕̯̳͕̫̪͖̫̗̝̖̤͕̺̜̙̗̩̦͎͉̩̥̪̺̳͉͔̱͇͔̥̰̱͉̠͉͙̝͖͈͕̣̝͙̣͖̜̞͔͚͕̞̗̬͓̬͈̦͖̤̘̟̺̮̤͚̠̼̪͚̥̫̬̖͙̬͚̼̼̩̯̤̠̳̥͇̦̮̗̟͖̭̞̖̥͍̦̳̪̹̰̹̲̭̞̘̟̟̼̲͎̣͖͓̞̰̞̜͕͔̱͙̩̞̭̤̭̺̠̩͖̯̥͕͓̫̥̺͙̥͔̫̜̺̥̲͍̠̻̹͔͕̫͍̞͙̙̖̺̬̝̼̤͓͓̰͇͖̯̺̱̮͈͇͕̦̯̺̬͔̭̼̞̯̖̝̦̙̝̗͎͕̯̩͔̝͚̬̤͖̞̠̙̜̝̱̣͚̼͙̤͓̣̮̙̖̯̫͖̝̫̦̘̩̤͔̤̤̻͈̭̻͕̱̺͔̥̻͎̹̺̩̤̖̙̮͉̜͎͉̣͔̮̙̫͍͔͔̤͚̹̮̘̥̥̗̲̜̞͓͍̲̟̠̞̰̗̩͇̱͚̟̻̣͔͚͓̺̭̝̰̦͇̯̰̠̫̺͖̝͈̟̤̳̘̹̤̳̪̦̲͕̳͔͓̘͖͕͎̬̘̟̥̟͇͖̮̮̗̰͈̬̖̱͙̦͙̬̦̹̤̳̫̞̜̲͓̥̥̭̩͓͚̞͙͍͖͍̞͍͓̝̰̙̰̱̠̱̰̹̯̺̞͈͓̫̝̦͙͓̪̰̺͚̹͍̻̥͖̟͉̗̪͓̗̞̖͚̹̭̳̮̤̜̫̗̻̰̮͇̗̖̞̰̫̜̦̦̬̮͈̙̟̯̟̺͇̪̬̦̩̖͓̟͙̹̳̝͕̦͕̼̳̱͚̖͈̳͎̦͓͉͎͇͉̬̜̭̙̘̬͈͙̫͓̺̠̩̬̤̱̻̰̪͍̠̺̺̯̤̯̩̪̘̩̲͍̠̖̜̙͙̜̞̤̝͇̜̥͖͎͚͍̞̻̭̣͙̗̹̻͉͔̯͓̲̟͇̱̼͚͍̹͎̯͖̹̻̝͉̥̻̗͉̲̘͚̥̯̮̰̜̭̭̞̻͇̞͖̰̖̘̪̣̲̠̤̲̮̣͚̲͉̞͙̭̮̺̖̬̦̩͕͖̥̰̗̣̲͍̖̯̜̝̞̦͓̗̩̼̯̦̭͇̞̘̞̰̖̼̘̺̬̹͇̠͍͈̮̟̖̞̥͔̺̺̱̲̯̝̖̗̮̦̘̦͍̫̱̫̙̲̻̲̜̥̭̺̟̠̺͎͙̦̬̤͈̳̜̠̙̝̣͉̜̼̫̳̰͈̻͙̳̱͚͉̙̩̜͙̞̻̳̙̟̣͖̮̟̠̪̫̞̯͉̜̺͚̗͉̗̣̬̭͇̻̹͖̣̫̞̦̦̫͕͔̣̮̰̤̲̫̼̹̹͓͉̳̖͓͇͙̘͕̜͈̮̱̲͙̭̮̻̲͍͚̘̦̞̭͍̟͍͔͎͓̲͙̖͇͙̜͖͚̫̝̹͍͚͚͙̤̘̳̯̦̭͚̱̗͓͍̣̗̲͚̫͚̲̮̩͎̙̤̙̥̘̮̥͚̞̦͉͚̙̬͕͓̩̮̬̗̱̝͇̼̣͖̤͇̠̹͔̞̪͔̜̟̻̺̯̰̰͇͕̣̩̥͙̝͚͖̮̫͈̰͖̥͇̪̥̱̬͕̩͕͇̙̖̺̻̠̠̰̹̠̱̗̲̖̪̥̗̞͍̯̜̜̳͕̠͙̥̬̯͔̻̟͇̠̝̰͖̝̖̲͖̜̹̩̲͍̥̫͕̝̱͔̞̥͖̞̣͈̣͇̺̱̝̗̻̰̝̲͎̩͓̥͍̗̭̗̪̩̦̻̙̦̜̠͇̪̖̣̦̩̯̝̥̩̞̖̯͈̺̬̹͙̹̬͙̹̭̘͈͓͖̜͎̜̦̮̣̹̤̩̯͔͓͖͎͔̣͙̤͉̳͔̰̗̣͇̪̝̣̞̺̻͔͉͚͕̗̹̺̻̱̘̱̠̠͚̜̤̗̤̥͈̮͎͚̤̖̦̘͚̻͈͙̝͙̩̙̬̤̝̗̦͉͎̮̱͈̘͔͉̦̱̘̩͎̥͚͚͇̭̥̪̞̲̺͈̼͖͈̱̪͎̟͇͇͚͈͉̭͓̘̰̖̞̘͔͉̺̠̲̻̮̬͉͓͈͓̰̬̫̩̘̤̞̻̱̥͓̫͙͇̱̰̬͉̤̣͍̪͎͍͈͙̥̱̺̳̝̻̞͉̳̹͉̮͈̖̪̹̯͎̳̹͉͎̹͚̳̟̺͉̝͉̞̥̤͎͚̱̭̠̱̭͖̻̳͓̮͖͔̝̺̙̳͙̼̪̻̪̭͙̮̪̖̻͎͓̹͙̹̻̜̬̪̞͇̹̬̻̲̝͈̰̞̰͕̻̯̙̠̝̜̜͓͇̰̩̭̞̙̝̣͇͉̝͕̙̼̪͎̗̱̤̦̜͔̰̹̣̗͉͉͎̺̫͚̻͔͎̮̠͙͚̥̥̬̪̱̥̬͈͙͍̫̺͚̗͚̞̦̼͈̹͚͓̣̮͕̣͍̺͔͈̪̞̮̰͇̟͉̤̜̲̳̹͓̖͚͙̲͎͙̠͔͖̰̱͙̮͖͓̲͈͔̪̪͓͖͚͉̲͓̩̖͎͇̥͕͚̺̞̥̗̗̖͍̼̤̗͍̘̫̳͖͙͇̜̜̜͕̬͕̞̘̳̼͙̪̪̫͎̩̰̳͕̻̮͎̪͍̼̩̟̘̝͚͓̯͙̠̲̯͔͇͖͚͙͓̺̗̠̖̩̙̱͓̣̠̯̞͚͖̙̻͕̖͈͈͈̫͕̗̠̹̠̳͈͔̬͙̰̺̜̜͎̠̺͔̫̬̞̩̻̗̠͓͓̦̪͕̜̫̼̬̩͓͙͈̤͉̻͍͍̟̱͓͕̺̗̼̲̖̦̤͇̟͔̬̳̲̱̤̻̼̝̣̠̥̟̱̥̩̭͕̮̻͚̞͙͈͍̬̲̳̪̙̲̝͍͕̞͈͖̙͇̬͈̜͈̟̦̘͕͙͇̦̲̗̥͉̖͉̺̟̗̫̗̬̺̹͉͙̗̺̩͇̺̬̦̟̤̰̬͍̠͈̬̘͈̳̣̼̩̜̥̖͖̻̼͇͍͚̝̝͔̺̣̣̻̥̳̖͇̜͉̫̫͔̯̜̣̦̩̬̱̙̥̮̜̱̭̺͈̖̲͖͈͈̱͖͔̮͕͍̳̦͍̙̬͎̙̼͚̲̺͓͔͓̳̬͈̟̫̖̟̘̼̗̼̯̮̞̩̠͇̯̭͙̠̮͔̹͓̲̞̭̘̖̥̰̟̭̥̝̹͙̭̫͖͙͔̮̬̗̱̝̗̜̤̝̦͉̺̜́̓̂̽͛̈̃̑̽̀̌͌̋̎̒͒͛̽͋̀͒̄̇̓̎̍͋̆̆̓̈́͌͛̈̄̽̀͋̏̓̂̉͌̒̒̈̈́̅͛̾͌̍͌͌̽̽̍̅͐̅̓̾̓͛̂̓̀̃͒̽̓͒͆̄͋̇̓̀͋͛̓̍͊͐̂̃̎͒̋͐͋̌̉͌͊̋̿̎̓̀͂̊́͂̽̋͌̌̔̓̈́̓̑͛̇͊̀̑͂̔̊̈́͌̏̀̏̿̈́̋̍̓̂͋͊͋̂̽̆̀͊̇̆̅͛̃͆̆̐̈́́͊͋͆́͂̽͌̎̀̄͊͑̔̑̉̆̇͂̋̏̀̄̽͊͋̿͋̉̆̒͑͌̐̌̔̅́̋̆̌̄̑̒̍̓̈͊̀̔̐͆̂̀̍̽͂́͆͛̈̾͂͋̓͌̀̾͒̎̏̌͛̇̿̔͛̍̾̈́̀̓̾̾͆͂͛̋̀̂̾͒́͗̏͑͑̃̊̎̎͆̔͋͗̽̓̐̏͋̔̒̏̈́͆͗͒́̐͛͌́͆̌͊͂̈͑́͗͛̉͒̎̒͛̈̂͌͑͐̆̾̋̓͑͆̃͋͌͗̐͋͐̀̊͐̂̒̀͑́̊́̓̾̀̀̇̀͐̓́̍̌͆͊̉͋̀͑͌͗̐́̈͂́̓̆̍͒͛͊̔̆̅̽̏̊̓̈̋͑̑̔͊̓̌̓̍̍̑̌̀̽͆͂̒̆̃̓͆̑̔̔́͑̌́̊̇͆̎̂́̍̓̈́̈́̽̆̉̐́̒͑͗̍̇̌̍́̌̏̈́̓̈̂̒͗̓̒͆́̇͆̒̔̔̅̒̓͌̄͊̅͐̅̃̀͊̇͂̃͛̆̆͆͂̔̍̾́̅́̉̇͗̐́̃̍̆͐́͊̏̊͌̉̆͊̅̋̅͌͋̏̆̏̂͒͑̊̓́̉̈́̈̆̆̌̍͋̃̐͊͋̒̇́̐͊͆̋̀̂́̈́̓̿͗͗̄̂̈́̈͂͐̄̔̀͋͂͊̿̎̿̋͑̆̂̓̓͒́̇̽̽͋̍̌̈́̈̿̈̐̾͋͌͂̍͂̿̒͌̀̅̑̋͑̀̏̔̄̂̓͊͐͗̿̒͆̌̈́͐̄̿͌͐̊̓̔̒̿̓̓̎̉̒͒̀͐͋̌̓͛͛́̀̂͋͆̀̓̎̀̄̈̉̾̊̎̄̍̉́̽̇̉̈̆͌͐͑͊̅̂̅͌̌̇̀̽̈̿̀̃̒̎̾̈́̃̐̉̃͑̒̎̄̿̌̎͋̃̆̾̋̓̃̄̄̉̈̀̐̉͂̀̓̍̅̀͋̐̒̀̅͆̍̓̆̊̀̊̓̈́́̇́̈̎́́̅̃͗̏̇̃̀̔̈̈́̎͂̐͂̀́͑̈̂̈́̆͑̓͗̎͛̿͑̀̄͒̍̏́͌̽̒̎̂̔̀̓̈́̌͆̏̀́̑̀͌̈́̽́͑́͌̍̋̒̊̐̐̿̑̈́͛̀͛̃̂̇͌̓̽͒̓͂̎̄̂̇̇̓̊̀͒̊̒̔̅̿̈̇͋̓̓̃̓͊̉͗͐͊͑͐̉̏̍͂͊̊̒̅͆̓͗͒̏̌̃̀̈́͑̒̎͌̀̿̀̏̊̑̏́̓͌͐̇̔̓̑̌̄͊̽̍͆̋̈́̐̀̊̍̓̓̾̄̓̿̆̿͂̃͒͗̂̓̂̓̎̑̀͐̏̑͊͋͆͊̊͐͊́͗͆̇̓̈̋̓̅̽̊̏̔̄̆̍̑̇̑̃̓̓́̅͗̓͊̀̍̓̓̂͑͆̔̊̂̋́̀́̉̾̓̇͌̅̑͗̍̆̑̃͆̇̓̑̌͒͐̔͋͋̓̓̇͛͗̎̓͒͒̽̓̅͒̍̌̀́̊́̃̔̆͗̾̍͒̑͂́̎͊̀̏͛̐̔̈́̑̊́̉̏͂̿̏́̆͛͌̉̿̓͂̔͑̀̑̇̎͊̎͂̓̒́͐̑̓̎̀̇͒́̓͊͒́͒̄͂̈͐͂̽̌̎͐̊̉̇̀͒́̓͋̉̍͆̾̄͐̽́̂̄͒̅̀͛̉̔̿͒͐̒̉̊̑̌͌̾̾̈́̍̔̆̉̔̇̇̾̂̓͋̓̇̐͒͆̋̅͋͌͋̀̆͑͂͒́͋͒̋̄̑͆͌͒̈́́̄̒̀̄̃̉̃̾̑͊̇̅̅̂͆͆̂̒̉̌͌̀̂̓͑̿̃̌͑̀̍̇͛͐͂͋̄̄͑̐͛͐̏͛̅͐͐̀̉̒͂̐̎̀̾̐̾̓͐̎̓̿̎̽̆̋͊́͒̓̀̅̀̇͋̿̊̑͋̏́͒̐͐͊̃̾̑̅̍͐͗̃̓͋̐̏̀̍̍͐̑̑̈́͆͌̊̀̈́͒̾́͐͂̓̂̾͑̅̿̑͆̆̑͆̾͑́̾̀̓̔͛̈́͊͗͑̃̓̅̓̊͛̔̉̒͌̑̆͒́̃͛͗͋̐͐͊̇͗̓̿̑̆̋̎̊̉̾̈́́́̓̑́́͒̎͋̔̏͑̿̈́͋̊̈́͆̏̿͋͌́̅̆̓͒̃͐̏̉͛̄̅́̾̽͆̂͆̈́̊͆͗̀́̍̊̉͊̓͊̃̓͂̾͊̎̀̃͂́̏͛́̍͐͂̉̐́̔̉̑͐͋͌͆̀̂̒̇̏̿̓̊̇́̅͛̔͊̔̌̐̅͗̎̾̌̀̊̇̆̽̀̍͆͗̐̇̒̅̉̊̑͒̿́̔̾͊̔́͌̉̈́́̐͐͑̏̎̅̽̌̈́͐̐̐͛̆́̓͌̏̋̒̐̎̑͊̓̃̆͌̾̈́̇̅̿̏͐͌̈́͆̎̀̍̏̿̒̃̽̈̈́̀͂͐̍̒̏͊͂̾̐̆͂̐̉͋͋̋͑̐̅̿̑̈̒̾̐̏̆̊͐̋̓̿̅̀́̋̍̈̈́̄̓̇̏͑̈́͌́̈̈́͒̈́̆̈́́̐̅̍̎͐̃̍̆̓̈́̽̓̄̓̓̅̽͐̀̋͐͒̇̋̀̎̍̍̒̂̅̌̂͗͛̒̓̆̋͆̿̐́̇̀̑̔̄̏͗͋̀̍́̊̎̊̍̉̍̑̉̆͛̏͆͊̌̏̀̈̎́͋̽̍͂̆͐̔̐̾̓̈́̓̔̆̿͂̑͆͐͆̈́̀̆̄̀̇̌͒́̃̇̓́̍̅̋͛̀͊̏̇̈́̏̌̾̀̍̄̂͗̉̏̂̈́̽́̔̒̈̊̈͋͑̑̎̌̌̋̌̿͌̍̒͒̍́̿͆͊̌̈́̍̏͛̀͆̓̆̔̂̐̀͋͛̏͛̋͗́̏͋́̈́̀̌̋̎͐́̋̄͋͛̐̓͗̏̆̂̊̉̐͊̎̓̌͋̃́̓̒̐̓̑̾̈̑̋̏͑̄̀͑͋́̃̿͋͋̏̊̉̈́̽̌̎́̓̑̐̌̓͊̇͋͌̌͋͗͋́̒͗̃̽̾͂͊̓̊̋̄͂͒́̑͌̒̉̾̑̓̌̒̆̏̊͆͆̈́͊̂̇̈̈́̄͂́͊̋̇̈͐̒͌͗̏̆͋͑̽̎̇̋͂̂͛͐̔̀̀̌͌͌̿̃̍̎̎͆̐̒̏̑̉̎̑͌͂̿̂̀̐̔̀̉͗͑̈͆͑̅̈̀̈́̀̚̚͘̕̕̚̕̕̕̕̕͘̚̕̚͘̕͘͘̚͘̚̕͘̕̚͘̚͘͘̚̚̕͘͘͘͘͘̚̚̕̕̚͘͘̚̚̕̕̕̕͘̚͘̚̕͘̚̕͘̕̕̚͘̕̚̚̚̕͘̚̚̕̕̕̚̕̕͘̕͘͘̕͘͘̕͘̕̕̚͘̕̕͘̕̕͘̕̕̕͘̕̚͘̚̚͘͘̕̕͘̕̚̕͘͘͘͘̚͘̚͘̚̚̕͘̚̚̕͘̚̚͘͘͘̚̚̕̚͢͜͢͜͟͢͟͢͜͜͜͢͜͜͜͢͢͜͟͟͟͜͜͟͟͟͢͢͟͢͜͢͟͟͜͟͜͟͢͜͜͢͟͟͢͟͟͟͢͟͟͟͜͜͜͜͟͟͢͜͜͢͢͢͢͟͜͢͜͜͢͢͟͜͟͜͜͜͢͜͟͟͜͜͟͜͟͢͢͜͜͟͜͢͢͜͟͜͟͜͢͟͜͟͜͜͞͠͞͝͠͞͠͠͡͞͞͝͡͠͞͡͠͡͞͠͠͝͠͡͡͝͝͠͝͡͡͞͡͝͡͡͞͠͡͝͝͞͞͡͡͞͝͡͝͡͡͡͞͝͝͠͡͝͡͡͝͠͝͝͡͡͠͠͠͝͠͝͞͡͝͝͞͠͡͠͞͠͡͠͞͞͠͞͝͝͠͠͡͡͝͡͠͡͠͠͡͡͝͝͝͝͡͝͡͡͠͞͞͠͝͞͡͞͞͡͡͞͠͠͝͡͝͝͡͡͡͠͞͠͞͞͡͞͡͝͠͡͞͝͡͠͠͡͞͞͠͡͞͡͡͡͞͝͡͝͠͞͠͞͠͝͠͝͠͝͠͠͠͠͝͞͝͠͡͝͠͠͞͠͡͝͠͠͝͠͞͞͝͠͞͡͞͞͠͡͞͝͝͡͡͝ͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅy̡̡̨̨̢̧̧̨̢̡̨̧̨̡̢̨̢̡̧̨̢̡̡̨̨̢̡̡̧̢̡̢̢̨̨̨̢̨̨̡̡̡̡̡̨̡̨̨̢̧̧̡̨̢̢̢̢̡̡̧̢̢̧̨̧̢̨̨̨̨̧̡̡̨̢̧̢̧̢̢̧̢̨̢̡̡̨̨̡̢̢̨̧̨̡̡̨̡̢̨̨̡̢̢̨̧̧̢̨̧̡̡̢̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̯̝̝̣̭̤͍̫̜̤̥̻͔̪̳͖̬̱̙̯̮͇̹͈̱̥̭̖͖͔̼̮̰̝͈̜̲̱̰̯̮͈͕̘̗̙̭̳̰͓͖̙̝͍̼̪̘̮̻͎̟̖̦̞̲̞̣̤̪̮̭̖͈̟̳͉̲̫͙̲͍̯͔̩͔̰̞̼̖̩̣͕̪̝̘̺͎̜̲̘̬̜͙̻̦̱̲̼̫͙̹͍̜̹̖̹̜̠̼͎͉̲̬̭̪̪͈̰͉̹̰̮̱̮̼̙̭̩͎̺͓̱̟̻̭̲̟̱͍͓͕̤̝̣̟̬͇͕̠͕̹͚̮̺̯̪͔̝͓͖̝̠̹̙̠̺̝͉͓̲̫̫̣̞̰̗͕͍̠̳̺͓̬͓̺̪̠̫̬̝̺̥̗̭̩̼͙̲̻̟͔͈͙̩̳̼̯̮̯͓̠͓̤̱̟̟̦͍̟͖͈͇̘͓͍̜̥̖̙̠̲͎͙̥̝̲̤̟̪̘͔̳̯̺͙̩̖͓̤͈͖̙̙͔̖̺̹̻̜̳̹͖̱̳̙̥̣̜͉̙̝̗͉͔͎͎̟̗̫̭̮̝̞̩̘͍̠̯̯̗͕͖͈̘̯̬̘͔̼̬̠͎̙̘̣̱̱̝̹̼͕̪̖̩̰̫̜͚̞̮͚͔̩̩͈̬̹̩͙̯̝̝̼͕͎̖͎͙͎̳̺̳̲̟̘͙̗͇̫̖̝̯͎͚͇̝̮͎̙̝͙̱̹̬̠͓̻̦͙̻̟̖̲̼̻̟͈̟͉̻̺̬̤̲̣̹̤̻̼͔͈͓͚̠̬͎͙̞͕̭͔̘̲̳̠̦̠͎̦̼̥̝̟̘̼̬̻͙̤͍̝͉͈̜̹͖̟̣͍̮͕̺͇͖͙̳̦̲̻̻̳̣̪̬̙̫̗̞͎̦͇̼̯̩͙̪̰͍̟͓͔̠̖̺̤̠̻͉̘̤͉̞͚̼̭̳͉̹̯̪̣͖̰̝͚̹̺̟͓̙̫͎̘͙̟͈̟̙̠̦̰̗̻̪̭̪̜̩͍̯̼̲͇̮̹̘͕͉̮͍͕̘͈̼̹̩̮͕͙̰͉̭̲͉̤̫̹͙͚̬͔̼͕͓̱̦̣̬̻̺͍̱̺͍͍̼͎͙̘̫̫͕͖̹̻̹̲̟̭̭̮̮̘̬̰̬̯̹̪̠̬͎͕̩̝͚͉͍̫̰̫̞̝͉͍̯̗͍͎̦̻̠̘̠͎̺̭͇̱̗̫͇̹̖̖̟̼͍̳͓͍̰̦͉̙̖̟̗͔̳̟̩̰͔̝̝͚̭̰͚͎̦͖̫͖̱̩̦̭̮̬̦̙̣̝̗͚̲̰̜̰̫͕̣͕͍͔̖̻̝̲̹̫̭̠̦̥̭̤͔̦̺̥̖̙̠̻͓̞̘̪͉̮̫͈̘̺̺̬̝͙̖̫̖̠̝̲̣̭̺͔͚͈͔͍͍͚̳̙̖̰͔̟͈̹͕̼͔͖̜̙͈̗̤̜̹̘͇̙̠̣̦̗̥̳̩͔̼͇̮̹̲͓͙̱̠̤͚̭̗̲̩̣̘̥̤͈̙͈̰͕͕͙̦̠̯̠̥̘͈̼̘̬̘̰̲̥͕̙͉̦̮̱̱̩̞̬̮̝̩̗̲̙̝̮͍̤̟͍̖̝̘̰̫̺̘̣͓̮̻͖͎͇̹̻̲̪̳̜̳̯̳̹͖̩̟̖͉̰͕͙̮͉͇͖̖̳͇̖̯̱̦̥̥͎͎͕̘͉̲͖̺̹̞͙̗̱̩͈͕͓̯̟̤̩̥̭̲͈͙̭̪͖̖͍̜͕̟̱̯͕̪̜̼̲̫͓̣̲̤͉͍̤̠͎̭͓͇̪̦̲̙̱̟̥̞̙̦̼̥̦͉̘̫͇̬̖̭̬͍̜̩̙̘̹̲͕̺̳͖͎͓̯͚̠̱̞̳̺͕̰̣͚̩͖̖͍͚̥͔̝͈͍̘͚̲̟̜̥̻̹̼̝̮̯̫͓͇̪̫͍̝̝̱̘̪͙̻̪̜͍̦̜̜͚̹̘͕̺͙̱̞̱̤̮̣͙̱̲͎̤̹̩̲͔͈̗͈̲̘̼̯̜̜̜̫͚͎̺̭̝̮͔͎̺̩̰̞̠͔͔̖̖̥̪͇͔͍͙̘̤̖̥̗͉͉͍̟̠̘̼̦̘͇̙̬̖͈̘͔̠̙̼͇̖̫͓͇̞̞̱͎̦̦̜̤͕̘̰̱̺̩̘̮̻̥̙̟̱̠͇̗̲̺̭̤̞͇̤̝͉͕͕̼̫̞̥̮̘͖͎̹̣̖̠̹̥͈̌́͆͒̉̀̋̿́̇͛̀͛̈̈́̑̈͒́̏̈́͗͐͐̄̿̍̊̂̅͌̀̽̏̀̓̌͐̐̐͌͋̾͋͆̄͌̈́̐̑̎̈͑̅̽̓̄͊̾̓̅̍̒̍͐̋̿̏̆̿̍̆̐̏́̐͛̇̋̓̉̍̓̃͗̃́̓̎̌̓̐͗̎̃͊͑͛̍̍̌͋̓̓̋̑̿̊̏̃̓̔̔̇͌̃̀̍̋̃̈͂̏̿̉̄͗͌̈́̇͌̍̀̓̓̈̃̾̈́̾̊̈́͂̇̐͐̒̊̑̽́͂͋̌̔̊͆͊̊͌̆̀͗͌̉͊͐̽̎̋͒̾̄̔̍̔̇̋̔̄̄̑̋́͗̂̽́̋̍̓̊̋͆̍̽͂̈́̀̒́̄̋̇̋͗̀̂̉̈̀͒̈́̃̆̎̀͊̄̄́̉̓̍̀́̏̉̍̽̽̏͗̄̈́́̈́̆̂̎̾͒̃́̀͛͑̅͒̀̉̀̌͛̽̀̐̀͒͊͒̉̅͛̅̀̃͆̉̐̇͊̃̅͗͗̅͆̒̍̌̃͐͂̔̾̓͑̃̋͑́̈́͆̽̽͊͒͛̽̑́͋̑̀͂̈́̐̋̍͆̀̈́̈́̾̎͋͊̑͗̈́́̐̔͑̒̓͒̀̿̔͐͆̒̌̀͊͐̇̐̎̾͑̐̋̒̽̅͆̈́͂͌́̆̆͛̉̓̉͛̍̈́͋͂̆̒̃̒͂̈͌͛́̓̎͌͛̌̒͒̓̃̀͒̀̑̽͗̎̂̀̇͋̇͆̑͒̇̇̊̇̐̂̑́̐̽̽͗̈́̍͐̄͆͒̆̄̈́̾̂̔̓̒̄̑͌̂͐̐̂͂̍͌̎͌̇̐̎͐̒̉͐͋̐̔̉̇̈̅̒̋̿͗̊̈́͑̊̇͒͛̐̉͊̃̀͊̐́̊͋͐͗̍́͐͊̇́̎̏̃̀̍̈́̀̃́̌̏́̒͌̓͌̉̿͐̇͌̿̿̔̀͂͐̀̓̔̓͑͌̿̓̉̾͋̔́̀̓͋̂͋̐͂͐͑͐̽̎̀̊̓̎͌̍͋̏͛̓͑̊̏̍̓̓̎̀̄́́̌͋͛͑̓̐͑̀͋̅́͌̀͊̓͛̈́̃̇̀̊̂̂͐̈̔̈͛̊̑̐̈́͆̅̓̀̍͆̐̊̈̊͂̽͑́̎̋̄̽͛͛̋̾̏̈́́͗͌̃̒̀̾̔͐͒̀̆̾̄̓͗̀̉̃̊̑͋̂̑́͗͛͋̆̽̄̑̈͗̒̌͒́̌̊͐̓̐̐̈́̈̋̔̆̓̇̆͋͌͑́̉̑̍̄̄̓̄̆͒̀̓͗̿̍̄͊̾̓̈͋́̄͑̇̃̇̉̉̽̓͐͊̌͊̆̀̎̿͐͋̊̏̒̓̆̑͊̾̄̀̋́̔̀͊̓̌͂̉͗̽̀͌͛̊̄̔̒̃͐̋̀̽̑̄̀̎̅͐̆͆̿͆̈́̓̑͐́̉̾̃͌͗͗͗̍́̆̈͐͒́̈́͗̓́̆̎̓̏́͗́̏̅̍̇͆́̇̏̔̿̔̀̌̆̈́̑̒̾̽̈̋͛̒͑̽́̂́́̌̏̆̐̍̀̋͌̂̈́̈́͐̂̂̒́͑̃̅͊̏̓̃̑̽̑́̈͒̽̈̂͑͆͑͋̄̅̎̂̓͛̀̈̏͂̔̊̓̀̀̋̉͋̀͒͐̉͐̒͆͒̃̂̆͌̾̉̏̒̏̓͊͋̓̇́̈́͐͑̐̾͛̎͆̌͛̋́͛͌͊̅͗͌̒͋̉͑̄̔̓̅̈́̀͆̍̎͆̾̔̍̌̍͒͒̍̌̍̂̾͋̅̑̄̃̔͂͑̃̅̃̈́̈́͐̀͌̈́̐̋̎̀̐̋͐̌͊̀͌̅̐̔̎̈́̇̏̽͂͐̀͐̍̈̒̐̿͌͐̽̓̀̍̓͌͑̔̄̿͊͂͋̍̆̓͒̾̇̂́̈̉͋̾͌̊͛̃͊̋́͒̋͐̎͌͗̾̊͂̈͆́̋̈̑̎̆͛́́̅̀͂͛̒̉̒̔̓̽̓̉̑̆͐̑́̊̎̔̈̀̇̈̍̑͒̅̀̓̔͊͛̌̄͗̈́̊̉͒̉͐̈́̅͑͋̎̀̅̌̆͐̌̋̏̂̍̓͋́̑͆̌͆̒̾͑͑̐̈̌̎̈͂͌̔̔͛̋̔͋̓̃͌̅͊̇̐̓̆̀͑͐̉̕̚͘̕̕͘̕̕͘̚̕̕̕̕͘͘͘͘͘̕͘̕̚̚̚̕̚̕̚̚͘̕̚̕̚͘̕̚͘͘̕̕̚͘̚̕͘̚͘̚̕̕͘̕̕̚̕̕̕͘̕̕̚̕̕̕̚̚̕͘̚̕̚̚͘͘͘͘̚͘̕̕̕̚̚̚͘̚̚̕͘̚̕̚̕͜͢͜͟͟͟͜͜͜͜͢͜͟͜͢͢͜͢͟͜͟͟͟͜͟͜͟͟͢͟͟͢͟͢͢͢͜͜͜͟͜͜͟͟͢͜͜͜͜͢͢͟͢͜͢͜͢͜͜͜͢͜͢͜͟͟͜͢͜͢͟͟͜͢͢͢͟͟͢͟͟͜͜͢͜͟͟͟͝͝͡͠͠͞͠͠͞͝͠͝͡͡͞͝͠͝͠͡͞͡͡͠͠͝͡͡͡͞͝͞͞͠͝͝͝͠͝͞͠͝͝͞͡͝͝͞͞͞͡͠͞͡͝͝͞͝͠͡͝͝͝͝͞͞͡͠͠͝͞͞͞͠͠͝͡͠͠͠͡͠͠͝͠͠͝͝͞͞͠͠͝͝͝͠͡͠͝͠͞͞͠͡͞͞͞͠͝͞͡͡͡͞͝͞͠͡͞͠͡ͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅĄ̨̢̡̧̡̡̨̢̧̧̢̢̧̢̢̡̧̡̡̡̧̡̨̨̡̡̢̨̨̢̧̨̢̧̨̧̢̡̢̧̧̡̨̨̨̧̨̢̧̨̢̢̢̢̡̡̢̢̢̢̢̧̧̨̧̧̧̡̡̢̨̨̡̡̧̧̧̢̧̢̨̨̧̧̧̨̢̨̨̧̢̧̢̡̨̧̢̡̢̨̨̨̢̡̡̧̧̨̨̢̧̢̢̧̢̢̡̧̨̨̨̨̢̨̡̧̢̧̧̡̢̢̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̺̹̫̳̙̱̟̪̖̻̠͕̼̦̱͈̬̮̠̩̣̲͈͎̳̼̹̮̦̝̘̻̰̭̩̱̫͎̱̖̞͈͍̰͉̻̻̖̲̲̩̳͖̖̺̭̻̣̰͖̗̞͖͕̩͔̖̞̺̮͕̤͉̯̮̳̞̩̝̝̻͓͓̯̠̠̤̦̰͚̠̤͙̼̫̙̥̮̫͎͔͍͕͚͙̼̤̟̞͉̻̲̠͎̝͙̙͕͉̩̼͇̝͇͔̭̳͉̮̜̮͉̭̠͉̣̹͍͓͍̙͕̜̳̺̰̟̮̞͚̫̰̺̳̮̞̞̝̻̼͚̗̺̰͚̞͖̗̣̙̺͉̗̗͇̗̝̯̞̻͈͎̬̪̩̖͖̯̮̺̼̘̼̦̥̱̣̬̙͚͙̯̼͔̥͈̣̮͎̫̠̬̙͚̜̥̩͍͔̭̻̲̭̤̥̥͉̗̗͚̘͙̭̫͓̼̦̲̠̤̞̰͈̞̫͚̺͔͖̯͈̞̠͇͖̼̤̩̹̟̮̲̥̹͎͚͔̗̣̟̺͈͔̮̱̹̤̤̠̘͎̜͕̬̖̬̹̲͓̗̩̯̠̙͕͇͇͍̙͕͍̦̹̫̼̩̗̬̱͍̹̹̳͕͈̱̬̞͖͇͎͎̤̠̳̗̹̱͈͚̗̲̗̙͎̬͓̭̠̜̜̲̞̼̗̗̘͓͚̖̙̭̺̞̺͙͓̯̝̤̭͙̬̳̩̯̘̝͚̥̠̖̪̠̗̜̳͖̣̥͕̘̰̗̜̟͍̤͉͈̻̹͔̩͉̠̯̞̪͔͕̠͙̳͉̣̬͔̳̺͖̤̟͈̙̹̙̦̗̥̹͕̘̬͓̤̹̲̪͔̲̦̗̜͈̝͈͔̭͙̱̫̣͉̩̼̻͉̺̝͓̝̘͍̤͎̞̫̪̦͉̭͓̹̙͖̳̦̠̦̳̠̟̖̱͔͍̰̝̩̰̼̠̮͕̰͙̘͙̘͍̞̭͙̭̟̣̗̫̪̪̻͓̹̮͚͇͕̪̮͉͕͕̯̖̫̝̟̠̫͔̻̬͉̟͈̫̥̣͖͉͍̭͖̣͙̳̲̜̫͖̮̝̥͎̖͍͓̩̯̳̭̹̤̪̜͙̜̝̙͔̖̰͔͙̺͔̦̤̘̯̣͖̗̪̞̟̯̳͖̱̥̫͓̦͉̼̳̭͔̭̺̳̻̭͔̯͍̫͇̜̙̻̙͙̩̪̞͍͎̜̰̤̹̜̩̣̫͕̳̟͓̬̜̼͓̬̳͙̦͎̰͍̼̼͍̭̝͕̳̥͙̠̪̖̤͚͇̞͉̰̰̯͍̤͚̫̫̦̫̞̦̱̰͚̞̮͈̼̭̝͚͕͍̮̰͇̮̹̤̫̲͉͖̪̤̘͎̭̱̱͔̣̟͈̖͓͓͇̭̪͖̻̹̤̖̻͍͓̦͙̮͕̯̱̳̻͇̭̱̯̯͚̼̜͕͎̜̦̬̝͚͚͔̘͕͖̲͔͍̬̗͚̰̥̦̣̞̝͚̮̺̘̘̙͈̱̣͍̳̙̣̻̫̺̠̝̮͕̯̭̻͈͖̲̜͕̣̤̪̼̯̩̻͎̩͎͙̥̻̫̮̟̞̯͖͓͙̞̭̯͇̙̥̰̞͙͕̼͓̱̻̖̺̳̹̙͎̜̫̜̻͔͔̮̜̠͚̖̞̗̝̟͕̙̗̫̮̬̭͈̘̘͈͙͍͓̱̫̭̫̱̦̟̖̜̜̘̜͇̣͚̖̲̣̞͙̜̻̝̫̤̞̠͇̩̺̭̺̦̲̤̺̪̪͍͇̠̦̺͓͕̞̹̞̝̤̟̤͉͕̭͖̪̭̦̙̤̯̫̘̤̳̼̙̦̹̼̺͓͔̗̠͔̫̹͈̼̮̰̣̟͙̳̠̫̺̺̭͔̜͚̘̗͚̠̩͖͖̖̞̮̺̯͚̻̙͚̳̖͉͍̳͙̗͙̥̫̘̼͙̭̞͙̞̬͉̮̳̝̬̰̤̜͉̤̙̤͎͙͙̙̘̗̬͕̯͙̖̭͕̗̼̜̝̻͈̲͓͖̺̠̯͕̞̭̦̼͎̯̘̙͍̞̩̩͖̰̠̯͕͔̲͓̫͈̩̭̘̪̗͈̙̦͔̜̺̱̞͇͔̹̳͖͖͉̩̹̩̠͇̥͙͓̭̝͇̰͉̥̠̣̭̰͈̼̩͚̯̭͎̞͕͈̯̖̣̙̫͉̬̥̥̻̣̫̙̤͔̬̜̞̰̻̜͎̝̬̖̼̱̩̟̬̪͎͔̥̣̩͈̯͓͈͚̤͙̭͇̫̱̥̝̞̹̭͙͕̟͈̣̖̬̹̦͔̳̮̩̪̳̝͙͈̯̜̳̲͍̜̜̦͖͉̙̜̖̲͓̪̤̥͔̥̜̲̤̭͕̲̼͈̦͙͎̜͎̘̗̤̙̯͔̬̣͙̯̮̦̹̝̝͇͇͓͖̜͍̩̳̺̥͉͍͉͉̳̙̻̟̪̭̝͈̫̼̗̥̯̲͔̙̳̘͈͇̼̯̺̮̩̭̫̣͓͍̞͓̬̮̺̼̲̖̞̖̲͔̠͔͖͓̹̼̩̻̯̞̥̱̙̬̭̗̟͈̲̫̳̱̥̞͇͔̘͉͍̮̜̞̤͇̝̠̭̜͔̞̜̟͙̮̰͍͕̠̺̪̩͓͕̹̞͔̜̦̩͎̙͇͖̺͕͙̰̩̪̯̥̞̠̯̮̖̘͉͇̥̭̫̥̳̅͒̃̿͆͒̾̉̇̊̆́̒͑̆̈́̌͂͛̆̽̋̎̑͆̄͂̏͑͋͛͗̄̈́́͆͗͋̿̅̿̌͑͊̈͛͂̊̓̽́͗̍̀̈̎͋̔̐͆͛͂̾̉̋͛̈́́̂̑͌̽̇̇̈́̍̑̾̃͋̂̐̅̅͋̀̊͒̎͐̎̾͛͗̑̽̎̀́̃̆̊͗̀̏̇̿̏̄̔̊͒̃̆̽̍́͂̿̎̃̓̈́̔͊̍̊̎͌͑͂̂̀̆̐̂̄̋̊͑̏͆͌̽̃͒̓̊͊̑͋̀̆͂͑́̾́̈́̃̃̂͊̎͐͋̑̍̎̉̆̑͛̐͑̋̄̃̋͂̔̒̂͐͋̌̒̓́̓̓͒͋̽͆͆̂̌͑̾̊̽̅̇͐̇͗͑̇̊͋̃̃̎̍̋̉́̄̎͆̿͑̅̒̓͆̄̃́́͑͆̇̑̎̔͛͂̓͛̒̅̀̌͛̾̍̓͒̊͆̌̐̉́͒́͗̀̅̌̍̋̾͋́͊̓̉́́̆̑̆́̓́͌̎̌̎̇́̐̀́̇́̍̽̈̊̓͒͌̋̋͐͂͆̉̓̊̓͛̐͋́̈̆̀͑͌͑̑͂̓̄̑͆̾̆͛̂̄̽̿̋̂̃͐̑̂̇͛̔̾͌̓̀́͋̂̈́̉̑̀̂̂̈́͛̔̐͌͋͐̀͐̐͋̀͋́́͆̽́̈́͐̈́́͆́̉̍̎͒́̒̀́̀̾̆̿̋͒̍̓̐̓̂̑͛̈́͑̐́̍̎͑̔̋̃͂̐̀͐̀̑̇̒̀̍̂̓̀̽͛̓̏͑̑̒̔̿͒͒̍͒͗̇̃̽͗͒͗̌̈̅̊̀̔́͂͛͒̽̍̽̀͆̎̋̿̾̽̓̿́̑͋͐̋́̔͒̀̈̀͂́̑̂͑̾̀͗̔̋͐̉̔̿̐̑͌͑͛̆͐̈͊̂̀̂͌̉̌̂̉͊̎͆͊́̍͛̍͗̀̄͛͐̓̈́̈̀͗̋̈͌̽̐̒̾̇͂̀̆̏̍̎̌͗̈́͛̃̓̍̂̀͂̈́̊́̅͋̄́͛͐̽͐̎̍̉̐͐̆̉̔̓̉̈̀̾̎͂̇̃̍̔̇͋̍̓̍͂̎͌̐̿̐͗̌̋͂̓̾̀͛̀̽̿̽͑̅͛͗͆͐̅̎́̇͌̆̀̎̌̿̄͆̀̀̎͌̓̐͂́̽̓̀̂̉̏͒̈́̓̿̀͛͒̔̀̓̓̀̀̎̈̀̀̍́̓͛͂̈́̋͐̓̾̿̿̈͆͐͆̂̽̀͗͛͋̀̂̓̈́́̆͂̎̈͑̄̀̈͑́̔͒̍͐̓̔̏͆͒̔̑͋͌̇̈͌̅͒͒̏̇̐̂̃̉̀̑͌̉̄̃̂͌̒̋͂̌̏͂̋̊̿̌̄̎͋͑͊̓̓̊̅̂̅́͆̍̒̃͂̍͗͑́̾̿̑́̓̈́̌̄̔͒͌͂̌̈͊͊̀̉̈͑̈́̄͛͐͛̈́͒̋̈͆͗͑̍͆̈́̏̀͛̄̏͒̀͆̌̂͛̊̿̈̋̈́͋̓̐̎̔͗̎̉̀̇̈͆̑͂̊̀̈́̔̂̎͑͗̋̈́̾̑̐̀̌̏̀͗͑̍͗̎̀̔́̓̾͑͌̐̀͊͐̐͐̓̒͛̈̈́̅̉̂͋̀͊͑̅̑͛̉̑͂̅̆̿̒̌́̆̎́̎̑̀̃̀̃̉̏̊̇̀̑̒͗̋̏̔̉́̇̂̒͌̑̍̔̐̔͛̾̓͛̊̿̑̆̽̄̃̎̔̆̃͑̂́͌̀̄̽̏̾̓̔̾̀̓̈́̓̅̓̔̎̐̾͐̓́̏̏͋̐́̋̄̃̇̈̂͛̍̌̈̄͛͋̆̇́͐̏̉͂̽̅͊̆͌̀̆̄̽͛̎́̐̎̒̉̽̎̾̑̎̍̐̔̾̾͂̽̈͆̏̽̉̉̈̒̾͑̍̾͒̏̾͆̂̇̒̑̅̌̅͋̋̔͋͑̌͌́̾͌̎͐̒̋̌̆̍̑̀͋͛̑̒̃̀̽̿̓͌͆̔̃̎́̏̀̀̎̃͛͐̿̄̇͊̿̀͆̇͋͛̀̋̽͑̄͗͌̍̍̀͑̒͑͋̎̄̓̌̓̏̍͑̿̔͐̑͋̔̽̀̄̑̋̋͐͗̉͆́̆̎̍̓́̆̏̅̂͊͆̅́́̈̂̄̿͋̄̏̐̂̅͛͗̐̍̎̄̎̃͂̈́̾͋̋͐̈́͛̃̐͐̒̅͆̍̒́̆͂̍̈́̍̇̒͌̈̐͌̃̊͂̐̐̏͂̾́͂͋͗́͒͗́̽͐̏̄̐̏̈͂̈́̔̓̎̈́̋̑̆̀́͗̔̌̀̀̑̂̃̿͆̃̔͒́͗͒̔̉̈̃͗͗͌̍̄̊̍̿̂̓̎̄̊͗͒̋͆̋̌̅̓̍́̎̂͗͂̄̔͗͛͒̄̐̈́̆͊̈́̍͑̍́͌̄̉͒̆͑͑̇̾̇̌̈̅̌̔̅͌̀̉̌́͛̀̓̓̈́̒̃̃̅͑̎̀̈̓͊͐͐͒̐̌̀̔͗͒̾̂̀͐͋͂̽͗͊̚̕̕͘̕͘̚̕̕͘̕̕̕̚̕͘̚̕͘̕̚͘͘͘̚̚̕͘͘̚̕̚͘͘̕̕͘̕̚͘̕̕̕̕̕͘̚̕͘̕̚͘͘̕͘͘͘̚͘̕͘͘͘̚̚̕͘̕̕̚͘͘̚͘̚̚̕̕̕͘͘͘̕̕̕͘͘̕̕̕͘̕͘̚̚̚̚̚̕̕̕͘̚̚̕̚̚̚͘̕̚̚̚̕̚̕̚͘̕͢͜͟͟͟͜͢͜͜͢͟͜͜͜͟͢͟͟͜͢͢͢͟͜͜͢͜͜͟͟͢͟͜͟͜͜͢͟͟͜͜͢͟͜͜͟͟͟͟͟͟͟͢͜͟͜͟͢͜͟͟͜͜͟͜͜͜͟͟͜͜͢͜͢͢͜͢͜͢͟͟͜͢͢͟͟͟͟͜͢͜͟͢͢͢͢͜͜͢͜͜͟͢͠͞͠͠͡͞͝͡͞͠͞͞͝͝͡͞͝͝͠͠͠͝͡͝͡͞͝͠͝͡͞͠͡͞͠͞͡͡͡͞͞͝͞͠͡͝͠͝͠͡͠͡͝͝͝͞͞͝͡͞͝͡͡͞͡͝͡͝͞͝͝͝͡͠͡͡͡͝͡͠͞͝͝͡͡͞͞͞͠͡͝͠͠͞͞͡͠͞͡͠͝͡͠͞͝͡͠͠͠͞͞͡͡͠͞͞͝͝͝͡͡͞͠͞͝͡͠͝͡͡͞͡͞͠͞͡͝͞͞͠͞͞͞͠͡͠͡͡͝͞ͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅņ̨̨̨̢̢̡̡̧̛̼͉̻͎̩͍̼̰͖̩̟̹̰̪̻̲̱̲͙̰̳̖͉̝̠̗̜͕̣̝̲͇̠̦͕̰͈̣̣͙̳͍͈͈̤̩̦̜̮̹̗͉̳̹̼̼̖̟̮̼̝̼̤͖̻͈͔͈̗̠̲͇̑̃͒̃̍̽̀̏̀́̃̿̋̊̈́̃̊̌̏̒̃̑̒̇̐̐͊͛̀͗͌̀̆̀͐̋͗̂̍̉́͛̇͛̅̓̇̿̾̽́͗̐̂͋̆̿͑̌̎͒̾̍̔́̾̍̋̌́͛̑̍͆͐̋̀̄͗͘̕̕͘̕͟͜͟͜͜͜͜͟͟͢͟͜͞͠͞͞͡͞͝͞ͅa̡̡̢̢̨̨̢̧̢̨̨̢̢̢̧̨̢̡̨̨̢̡̧̧̨̧̢̨̨̨̢̢̢̧̧̨̨̡̨̢̧̡̧̢̧̧̢̡̢̧̨̡̡̧̢̢̨̧̨̨̨̧̨̨̧̨̢̨̧̨̢̧̧̡̡̡̢̨̢̨̨̡̡̨̢̡̢̨̢̨̧̧̨̧̡̡̢̡̢̧̧̧̢̧̨̧̡̡̨̢̢̨̢̡̨̡̨̢̡̨̨̡̨̡̢̧̧̧̡̡̢̢̢̡̧̡̨̡̡̧̡̢̨̧̢̡̧̡̧̢̢̧̨̨̨̧̧̨̧̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̜̩͚͕̩̖̝̼͓͚͇̼͍͉̣̹̱͔̬̤͍̩̪̣̖͉̹̝̬͉̮̠̫̜̳̬̰̠͉̤̤̟͓͉͖̖̪̙͎̮̼̭͔̪̭͈͙̦͎̣̤̹̲̬̭͙͇̤̺̬̙̹̮̮̰͖̫̤͓̰̮̬̖͍̥̙̦̻̲̪̯͚̞͓̬̞̮̗͈͉̖͔̪̩̗̝̤̩͈̟̳̤͔̞̜̖̲͎̹͎̦̳̮̩͔̦͇̯̫͎̻̩̣̯̮̻̺͇̳̦̩̘̘͕̗̖̫̜͚̬͔̠͇̥̦͙̫̱͓̱̼̯̰͔͖̞̹͕̜̖̝̗̘̹̩̗̝̟̰̺̮̲̙̣̘͕̬͎̻̫͖͔̤̮̻͖͎͉̙̥̻̲̥̭͙͚͔̯͙̟̙̳̺̩͈̻͓͇͍̝͇̮͎̜̰̗̱̱̳̞͍̬͚̼̦̹͓̠̠̝̜͈̫̗͈͓̥̻͕͈̝͇̫͎͉̖͚̟̖͚̻̺͙̣̪̦̟͖̰̟͍̬̭̘̼͔̪͙̦͔͙̠̰͔̼͓̦̺̱̤͍͎̮̜͎̠͍͉͙̻͍͕̻̩͙̰̫̫̙̫͓̼̖̞̝͎̬̗̯̟̠̥̻̣̰̤͓̮͕͎̮̳̯̤͙͙̰̟̘̭͎̲̫͈̝͍̖̯͎͓̯̲̖̭͙̭̘̠̠̳̰̜̻̘̟̳̹̟̹̼͔͖͙̰̥͍̦̼̲̖͕̦̖̞͔̮͚̗͙͙̖̤̟͍̹̜̳͓̻̦̬͔̳̭͇̱̫̘͕͓̲͎͓͉͍̙̩̹̬̝̖̼̹̖̪̲͈͉̙̯͈͍̗͖͚̭̹̣͎̙̰̼͈̖͈̮̣̜͚̗͓͕̺̜͙̪͚̯̣̟͇̥͚̯̤͙̼̳̥̻̯̹̞̩͕͔͔̲̠̲̘̪͕̹͙̯̬̩̳̯͈̮̣̳̹̼̺͓̠̯̙̩̱͎̪̭̗̩̖̣̦̹̥̲͍̼̳̹͇͎̠̙̜̹͓̦̘̘͚̫̰̞̪̖̣̪̰̟͖̙̤̜͎̦̺̭̖͓̺̤̮̝͚̹̥̤̞̫̯͍̙̩̤͖̙̻̲̪̻̟̹̞̝͇͈̤̯̱̠̻̲̮̘͚͖̦̳̗̜͔̞̣͔̭̲͎̯̣̖̥͓͇̺̜͕̮͙̲̞̤̦̮͙̩̖̟̤͙͚̪͓̗̻̖̳̖̪͕̺̥̥̞͉̜͕̝͔̣̯̼̫̺̬̜̫̼̦͖̜̜͇̪̪̠͎͔͉͙̳͖̮̪̹͓̘̫̱͓̩̥̱̱̟̤̞̳̳͚̹̫͈̯̭̫̟̭̤̞̬̪̳̬̦̼̱̗̲͇͇̳̞̲̥͖͚̰̞͓͕̯̣̻̗̯̤̠̭̻̲̟͍̺̩͎͚̙̠̠̝͓͓̞̱̱͍̗̟͉̟͔͕͍̫̬̪̦͇̬̲͇̤̳̬̰̦̬̭̻̺̻̠̞̙͔̣̯̯̗̩̣̜͍͚͚̦͚̭̞̤͙̲͙͙̺̭̼̝̟̩̯̪̻̟͔̤̪̫̥̻̞̳̲͕̤̥̳͕̹̙͓͇͎͙̻̮̺̱̠͙̭͎͇̰͍̗̻̬̯̲̦̞͕̠̯̟̣̞̩͔̩̙͓̮̝̹̘̩͎̰͚͖̜̘̗̬̙̦̺̦̩̗̟̻̜̞̺̬͔͚̰̦̼̝͖̞̮͔̯̱͓̬͎̫̼͔̫͖͖͍̯̤̩͎͔̝̝̟̞̲̜̤̞̞̗̳̖͚͎̘̖͖̞̬̟͉̮̮̮̼͈͇̰͎͚͍̠͉̝̘̤͎̰͉̠͔͈̘̤͙͉͍͓̘͚͕̻̖̗̪̠̠̝̯̯̭̩̫̞̳͈̠̭̲͖̝̖̺̤̳̤̺͕̙͚͕̪̙̖͔̖̞̠̥̗̜̙͈̠̲̯̯̩̮̗̣͖̤͙̜̟̪͉̥̞̻̦̻̠̦͕̱̣͍̘͈̩̘͉͚̱͔̱̪̹̬̼̲̼̜̻̺̘͉̻͓̟͖̦̹̘͖̘̠̩̫̩̦͙̠̠̗̳̺̫͙̜̩̩̮̻͙̜͉̟̣̣̲̹̙̲͙̻͎̙͈͓͔̖̠̯̝̥͈͇͇̙̳̝̳͇͎̣̳͚̫̘̦͖̮̬̗͙̤̗̱̣̖̱̮̦̯͔̫̮̞̰͉̥̫̜͕̭̱͔̮̗͔͍̟̻̖̘̬̩̫̰̗͖̖̣̳͓̻̠̥̜̼͓͉͉̱̳̯̤̝͕̮̺̦͈͇͙̹͎͔͇͇̬̠͍̪̭̯͙̟̲͙̦̲̙͎̤͓̪̹͕̳͕͇̤̥͓͉͕̤̙̪͔̺͇͙͉̼̯͖̱͚̭̼͍̲͎̣͕͍̗̤͓̦͉̻̻̗̺͕̜͕͉͎͖̹̟̼̳̱̮̗̻̰̠̱̰̬̞̣̳̻̟̟̠͉̠̯̰̟̟̭̭̣͍͎̰̗̣̱̝͉͈̮̼͙̬͔̗͈̖̪͔̣̥̲̫̠̱̪͔̜͍̝̭͎̘̻̯͓̤̦͉̥̞͕͉͎̤̟̥͖̠͖͔̙̟͎̘͕̼̞̱͔̟̹̪͚̰͔͈̲̰̤̺̞̼̣̝͉̳̻̺̫̤̮̺͓͇͙͖̰̞͎̝̲̜̪̲̰̼̗̝̦͓̪̦̰͚̹̬̥̱͈̦͖̟̩̙͕͇̘̹̙̼̝͈̳̖͚͖̻̬̬̼̼̩̩̭̼̣̳̪̳̬̰̗̤̙̯͍͓̖͓̻̲̪̪̣̣͚͕̗̲̬̙̟̼̳̮̠̻͔͕̰̞̠̠̭̘̹̳̙͈̖͓͚͚͈̪̝̮̳̗̹͉͖͓͖̘͖̫̘͈͓͇͎͎̠̭̺̗͖̥̖̫̹͉̮̗̜͙̥̺͍̪͚̹̯̻͉̻̜̯̣͓͕̞̻̝̹̗̹͕͚͔̘̥̮̻͙͓̣͖̝̯̠̫͓̻̼̤̜͇͓̻̲̠̲̭̤̯̤͓̬͕͔͎͍̮͎̦̹̬̳͈̳̩̙̠̖̲̹̹̘͕̠͔͎͓̟̣͉̲͙̪͉̜͙̹̰̲̤͈̬̳͓̜̭͚͎͇̫͓̣̤͕̝͉̠̻̲̰̪̗̬̜̦͙̩͇̩͎̱̫̝̞̘̥̙̺̳̥̯͕̦͓̜̭͓̣̯̰̜̩̼̟̟͎͖͈̯͙̹̻̼̩̮̝̭̯͇̮̱̼̱͕͎͇̤̳̲͔̤͔͚̥̦̤̱̭̻̼̲͎̼͔̱͔̰̜̤̜̦͖̗̮͖̜͓̝̫͉̗̱̜̣͕͕͖͍͖̲͓͇͔̝̬͍̪̝̫̲̞͎͔͈͇̘̱̦̟̫̣̩̻̼͇͎̳̖̪͚͉͇͉̤͓̠̲̭̞̦̦̹͋̎͐́͊̇̔͌͆̓̈̅́́̓̀̅̒̌͂͂̆͆̏̏̋́͋̀̌̑̍̀̍̈́̾͆̆͊̊̿̔̀̓̄̒͑̓͊̂́̈̀͂̑̀̃̾̓̄̋̈́͐̌̔͗̌̋̈́̆̍̐̃̈́̓͋̾̋̽͂̇̌̾̋̔̈́̀̐̈́̋͛̿͛͗̈́̑̿́́̓̈́̉͛̌͗̊̉͋̊̾̿͆̑̌̋̌̄̊̐̀̂͗̓̇̂͑̑̓̌̒̂̀͒̂̆̄̃̓̍͂̃̎̿̆͊̉̎̈́̌̑̋͂̎̀͊̅̋͐́͑̿̈́̽͌̈͗́̅̒́̑͒̽̽͋̅͌́̆̈̓́̊̏͗̒̌̋͑̈́́͊͒͂̏̐̂͋͒̀͊͋͐̃͐̍͒͆͑̍̒̋̄͐̏̇̌̌̔̌̒̂̊͊͌͂̐̿͌̅̓̈͒͊͑͗̐̽̿͛̓̑̍̿̌́̿͌̽̌̈̊͑͑̓́̈́̍̀̽̊̓̏͆̏̂͗̊͊̐̀͋̀̀̌̉͗̒̒̆̊̐̆̅̅͌̇́͌͐̀̈́̅͛͆̋́̽͐͊̌̈̋̂̀̀̒̊̎́̔͌̄͗̏̓͐̿̽̊̓̈̃̓̂̎͐́̀̑̀̑̀̎̍̇̐̒́̍͌̑͗̆͊̓͊͂̋̅͆͑́͐̄̉̉̆̐̽̐́͒̈́̋̾̍̐͑̅̊͗̏̈̽̇̂̈̈́̓̀̆̑́̉͂̏̄̔̒̔̌͗̾̄̒̈́͗̈́̒̄̋̿̄̈̓͛͗̈́̄́̇̂̄̐̔̆̿̈̽́̏̃̎̑̋̿̏͋̄̃͑̓͊͗̒̾͗̉̎́͒̾̃̊̀́̈́͊͆̃͆̓͒͂͌̈́̒͌͑̈̄͊̓̔̆̑̏̈́̓͑̎̄͊̐͆͒͂͌͊̓͊̒̈́̇̿͌͂̔̂̾͛̔͑͛̂̈̌̌̋̈͋̆̋̌͊͆͂̐̈͊͆͑̔͆̅̊̀̄͊͛͋͂̈́͋̎͒̎͑̐̇̌͛̿͌̂̋̿̓͒̓͛̇̅̐̃̉̅̍̆̇̽́̊̏͛̆͒̊̍͂̀͗̉͒̅͋͋̋̃̓̑́̒̀̀͛͂̀́̿̓̋̍̑̽̔̅͒̍̈́̆͛̆̃̋̓́̆́͑̀̓̊̿͂́̉̓͊̀̅̓̍̉͛̍̂͌̅̓̄͆͂͒̑̆͊̌̇̔̑̍̀͆̿͐̉̾͆̉͊̒̈́̿̂̏̓̉̿̃̔͐̾̀̌͗̾͐̂̌̏̀̅͆͊͆́̑̆͂̉̃͒́̋̊̍͌̆̓̔̽̈́̄͐̆͌́̌͊͌̐̔̀͑́̅̍̀̎́̂͑̈̌̉͊͒̿̈̍͛́̽͊͌͆̀̉̆̃̊̀̔͛̋̔̌̎̓̃͛̆͆̇̈́̒̂̊̇̆̀͒̿̓͌̂̇̀̈͊̍̋̒̂̀̏͊̀̎̑͛̿̆̓̍̉̉̔̊͌̓̾̒̌͊́̽͊̐̑̅́̈͐̊͛͆̒̎̈́͋̊́̃̃̈́̈̀̄̽̔̏̃́̊̾̌̐̈́̎͛̑̽̂͋̓̀̐̈́̀̒͛͒̉̌̊̋̋͌͐̑͋̅̈͌̑̅͐̅̅̓͋̒͌̾̍̾͌̊̎̒̈́͆̇́̓̽͂̎̑̋̈̔̒̃͆̔͂͋̅̌̇̄̓̌̆͊̂̑͌͗͒̉̿͋̅́̎̈͊̃̎̿͗̔͛̎̾̿̑͛̏̏́̐́̃̄̀͗́̈̈́͊̑̆͛̀̿͌̋̇͂̄̈̃̉̓͐̏̿͂̏̎̈̏̋̽͗̎͒́̈̌̈́̐̈̌̒̀̇̄͛̎̊̔͌̍̋̈́̈́̾̇̓̎̊̏̋͗̏̿͆̄̊̅͐͒̋͑̄̂̑̌̈̊̆̈́̑́̀͊͆̆͊̍̎́̑͐̋͐͗̈́͊͒́̾͌͂͐̒̍̏́̆͒̃͊̅̑̏̒͂̌́̔̌̔́͛̉̾͊͗͒̋͛͛̅̌́͛̂̎́̊͂͊͋̊̂́̌̍̀͊̑͋̾͑̋̀̒̅́̄̋̌̋͊̒̒͌͛͂͒̃̀̂̎͛͂́́͐̄̈̔́̓͐̍̾̀̓̔̑͊̓̆̎̓̆͗̋̊̅̓͌̒̉͊͊͆̆̿̓͗̿̀͑̓̓͂̓̃̓́̈̔̆͑̾̋̋̇̽̎̎̑͆̾̐̈́͌̃͑́͌̅̈́̽̈́̿̈͗͐̀͂́̆͆͑́̉͑̀̑̇̓̊̔̓̔́͆̒͑̃̐͂̽̋͌̅͑̾͗̑̿̈̒̍̊̀̑̓̏̇̽̊͗̀̓̅̊̌́̊̎͐̋̍̎́̒̅̃̔̈́̍̔͗͒̊͌͂́̀̊̌̽̀͗̏̊̋̽͊̑̉̐̉̐̐̓̅͑͋͐̋͗̈̒͆͌͂̊̄̑͂́̓̏̐̽́͛̒͂͌͂̈͆̃́͒̉̽̀̌͛̿̄́̉̊͊̂̎̎̀͋̓̋̐̐̓̽̆̇̽̐́̾̉̇̋̍̈̆̑̉̿̉͒͑̋̏̒̿̉̿͊̋́̐͑͋̀̽̐́͆́̆̈̀̌̎̾͗̃͂̽̊̈́́̑̈́̍̌͗̔͋̐̌̾̾̈͗͂͒́̏̉̽̒̋̐̀́̉͌͛̽̒̍͆̓͆͐̎̆̓̑̂̾̂͂̋̅̐́̐̐̈́̑̈͆́͒̊̅́̀͛͑̏͛̓̿͂̍̿̉̿̇̉̀̊̆̎̃̏͑̔͆͌̄͌̏̔̃̽͛̓͊͋̏̉͒̔͋̄́̄͗̀̈́͛͊̓̉́̈̔͆̀͑̽̅̓́̀̈̀̋͊̎̓̉͆͋̋̂́̈́̔͗̒͛́̂̇̊̓̅̋́̾̈́̆͒͑̇̃̏̿̑̀̎͗̓̄̀̃̄̎͑̽̀̄̀̐̏̔̋̎̔̋̆́̐̂́̓̈̂̽͌̔͒̂̋͂̃̈́͛̇͑̓͑̋̏͊͛͑̒̑͂̉͊̔͗͂͒̓̓͑̌͒̅̏̌̿̓̓͆͆͂͑͋͒̓̏̈́̉̆̅͂̀̂̀͒̓̒̌̃̑̿̈́̓̇́̈́̃͊̈̆̿̓̓́͐̑͐̎̇̎̐̓́̐͐͆̑̿̿̀̀̒̃̋͆̽̆̈́̉̈́͆̏̈͂́͒͑̔͒͊̌̽́͛̒́̐͐̈́̃̾͋̽͗͛͋̿̍̒̂͑̎̋͗͗̑͋̄̄͗͛͑͐̀̊̾͗͐̆͌̿̈̇̃̓͒͊̍̾́̆̔̍͂̂̾̀̒̒̂̆̆͌̈̏͑͋͊͗͆̇̌̀͛̆͒̃̋̀͊̾̊̐̓͋̊̓͑̀̋̓̓̚̕̕̕̕͘͘̕̚̕͘̚̕͘̕̕͘͘͘̚̚̚͘̕̚͘̕͘̚̕̚̕̚̕̕̕̕̚̕̚͘̕̚̚̕̕͘̕̚̚͘̚͘̕̕̕͘̕͘̚̕͘̚̚͘̚͘̕̕͘͘̚̚͘͘̕͘͘͘̚̚̚̕̕̕͘̚͘̚͘͘̕̕̕̕̚̕̕̚̚̕͘̕̚̕̕̚͘͘̚̚͘̕͘̚̕͘̚͘̕̚͘͘͘͘͘̕̚̚̚͢͢͜͢͢͢͜͢͢͢͟͢͢͢͟͟͜͟͟͢͜͟͟͢͢͟͜͟͟͜͜͜͜͜͢͟͜͟͟͜͟͟͟͢͜͟͟͜͜͜͜͟͢͜͜͟͜͜͢͜͜͟͢͜͜͟͜͢͢͢͢͢͢͟͟͢͜͜͟͢͢͢͢͜͢͢͜͢͟͜͟͢͜͜͜͜͢͢͢͜͜͜͢͟͟͜͟͜͟͢͜͟͜͜͟͜͜͢͟͟͟͟͢͟͟͟͜͢͟͜͟͢͟͜͟͜͜͜͢͟͢͢͟͟͟͟͟͟͜͟͢͜͟͜͜͜͟͟͞͡͝͝͡͠͠͠͞͡͡͡͠͝͡͞͠͠͝͡͞͝͝͝͠͝͠͞͡͝͝͠͡͠͞͠͡͝͝͠͝͞͝͝͞͡͡͠͠͠͡͞͠͝͞͝͞͝͠͠͝͝͞͞͞͞͞͞͝͡͡͝͝͝͡͝͠͞͝͠͝͠͝͞͠͠͝͝͞͞͠͞͞͠͠͞͞͠͞͞͠͡͝͞͡͡͞͠͞͞͞͠͡͡͞͞͝͝͝͞͠͝͡͝͞͝͡͡͠͡͝͠͠͡͞͡͡͠͠͝͞͡͠͝͝͞͝͝͠͠͝͠͠͡͞͡͝͝͝͝͠͝͝͡͝͞͞͞͠͞͠͡ͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅr̡̧̨̡̨̨̡̨̢̢̡̡̧̢̧̡̡̡̨̧̨̡̡̢̨̡̢̧̢̢̢̧̧̧̢̢̧̧̢̨̧̡̡̡̡̨̧̨̨̢̡̧̢̡̨̧̨̢̧̢̧̧̧̨̨̡̨̨̨̧̡̢̢̧̢̨̨̧̧̨̨̡̧̢̧̡̢̡̧̢̡̧̨̡̨̨̡̨̧̧̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̖̤̘̳͔̦̤̲͍̠̬͎̹̣̞̟͚̻̞̼͉̝͇̼̯̬͕̻͉̯̝̞͇̠̦͙͉̜̮̣͍͈̞̘̲̬̩̗͙̖̫̝̦͖̖͔̪̲̜̠̮͙͓͉̖̫͇̳̩̱̩̟̙͈̭͍̰̼̘̳̥̱͙̼̦̰̦̦̞̙̬͈̘͍̜̥̟͔̲̲̤͔̯̥̣̙͍̟̙̹̝͈͇͉̮̰͖̺̫̙̜͓̼̘̟̝̹̤̮̲̺̱̘͔̦̫̮̞̻̜̤͎͈͇̺̰̻̝̫͖̙̥̝̼̻͔͕̦̩͇͕̩͖̩̙̼̮̥̲̫̟̘̗̝͍̦̲̱̮̬̗̪͍͍͉̳̣̦̥͖̙̝̱͎̟͕̳̣̯̲̩̰̠̱͓̜̣̲̤̪̪̥̰̦̟̗̖̺̠̼̗͍͓̮̯͈̗̥͓̩̜̮̼̠̬̪̯͓̜̪͇̩͈̞̺͓̖̪̦̼̖͈͓͙͈̦̩̳͙̺̦̘͎͕̤͓̭̗̻̪͓̹̟̘͖̘͍͍͍͖̲͇͓̤͈̻̜̤̤̺̜̱̦̹͙͔̤͎̣͍͕͎͉̤̠͕͍̩̜͈̣͉͈̪͕͕̮̞̪̝̣̤̥̝̬͚͙͚͇̼̺͙̜̟̠̘̱̼͍͖̜͇͖͚̮͇̳̣̮͖̪̖̫̗͓̱̖̣͚͔̩͚͙̺͉̬̫͍̭͈͉͓̤̤̺͓͉̳͖͙̼̰̜̣̯͙̖̗̤̤̬͎͉̠̜̫̥͇̠̱̜̫̮͙̳̗̼̙͈͍̩̝̤͔̞͙͎̹͈͖̟̺̠̞̜̼̱̮͕̣̱̦͍̠̭͓̱̼̙̻̠̬̹̘͈̤̱͈̳͓͍̥͔͎̰͇̻͔̘̭͔͔͕͇̤͖͇̗̪̰̗̭̬̦͇̰̠̙̯̺̼͈̼͔͖͓̪̱͎̠̤̙̪͖̼͚̯̗̳̪̟̣̞̪̝͙̻̱̖̫̬͙̖̥̫͎͚͚̼̳̩͇̤̤̲̦̗͖̫̘̹͖̼̣̣̰̖̼̣̼̳̜͚̪̥͖̼̫͚̬͉̥͖͓̠̻̘̮̫͙̪͎̮͖͎͇̖͍͚͙̲̦͎͕̪̟̺̞̤̮̖̭̟̟͙͚̥͚͚̻̣̭̜̝͕̤̣̙̪̱̪̲͈̪̱̙̠̼̬͍̭͍̯̩̗͙̺͔̣̮̬̤̰͇͙̳͖̲̳̭̖̯̖̹̙̰̗͙̤̥̪̣̣͔̲̣̳͉̮̤̟̪̬͉̬̗͉͙͇̳̰̼̞̞̪̱̰̭͙̙̜̣̠̙̖̹͇͓̟̘͉͚̩̲͉̲̠̭̞̩̼͕̖̤̠̩̘̻̟͈̹̝̥͍̫͓͖͓̠̼͓̖͕͙̹̲̯̘̙̦͚̪̫̘͚͖̘̳̝̭̰͈̜̙̼̦͕̟̝̝͈͎̥̖̖̥̹̭̞̝̯̪̳͕̥̯̲̥̥̱̜͚̠͙͇͇͍̦̫̮͇̲͖̗͔̹̰̝̫̘̭͇̬͙͕͍͕̦̫̳̯͈͇̩͇̩̹̲͉̩͎̖͖̭̜̣͓̖̰̺̘̘̝̙̰̗͎̙̘̣̼͓̘͖̳̤̻̥̹̖͔͔̺̗̞̹͕͔̘̭̦͇͔̻͎̰͓̙͖̣̳͍̞̤͙͖̼̼͙̺̳̥͇̙̤̦̳̝͈̺͔͉̥̭̹̖̦̼͍͓̺͓͕̜̼̭̭̯̙̼͖̐͛̈́̓̄̂̓̏̽͂̆͐͛̔͊̆̑̎̋̒̍̈́̐͒͌͗͐̈̒̌́͆̿̾͑͑͊͌͌̄͆̔̀͂͌̂͛̊̇̐͂̄̈̿̊́̌̋͂͆̓͑͛̄̍̃̓̾͆̔̇̀̍́̓͐̀͋̎͋̎̓́̈́͊̔͒̊̔̈̌͋̂̔̏̌͐̒̎̍̔̇̑̂͂̔͆͆̇̇̆͐̄̀͊̌̈͆̉̾̈̏̂̈́̔̒̓̀͗̓̌̓͂̿͌͒̀̓͆͂̍̀̑̂̅̋̀͊́͗͗͋̈̋̌̃̽̈͗̾̆̑̈̓́͑͛͌͑̈̐̽̄͑͐̑͆͆͛͆̆̎̀͌̎̽̅͌̊͂̓̅̀̒͑̄̆͆̐̈́̌͐̆̈̏̀́͌͋̾̀͌̾̽̏̔̊̓́̋͆͒̎͌̀̂̆̂͂̇̎́͆͊͊̉̓̾̅̌̿̂̽̄̅̄̈́̓̍̆̋̉̽͑͆̓͒̀̆̓̒̃͆̏̽̓̋͑̌̏̌͊̆̀͋̒̂̓̇̿̏̃̓͑̂̊͒̉͑͐̀̓͒̓̓̌͗̾̈́̎̀͂͋̒͛̊͛͆͒̈́̎́̎̋́̍͌̎̈́́̏͂̋̍̆͌̾̊̊̍̂͋̈́̓̃͊̔͊̔̍͂̓̀̊͋̆̀̊̆̂̎̊͋̍͊̈́͗̋͗̉͆͐̓̑̍́͋̾̉̏͛̋̆͂̊͒͑̊̈̿̈́́̑̒̊͒̀͊̓̽́̔̈̊̋̽̽͋̓͐̓̋͋̎̓̑͛̋̅͐̀̈́̄̊̐̇̉̄̾̃̓͗̄͋̿̅̒̿̍̀̍̿́̑́̒͆̍̀́͂̾̊͗̇̂̆̌̊͂̾͆̏̍̐̑̈́́͛̆̑̀̒̄̔̈͋̈͗̃̿͋̏̾̒́̿̓͗̉͆̒͊̂͊̽͑͌̋̀̔̅͛͋̓̂̊͌͐̊́̄̌̀̌̀͒͐͊̂́̈́̀̄́̽̂̂̎̐̊̃͊̽̀̔̂͛̀̇̅͑́́̉̄̈́̾̊́͊̾̍̂̀̔͋͂͊̌̾̎̉̈́̈́̅̅͋̆̄̊̅̐̿̆̿͗̾͗̐̿̍́̿̃̂̍̃̊̑͊̊̅̑̐̑̒͑́̌̓̊̒̃͌̽̄̂̈́̔͊͑͐͐́̃̇̐̑̂̿̏̍̓͂̂̐͛̇͊̐̎̀̔̈́̒͂̀͋̌̿̋̋̀͌̅̌̇́́͌͌̂̀̀̌̾̾͐̒̐̈̒͌̍̃̀͛̉̓̐̎͒̀̏̂̄̔͗̉̓͛͋͆̈́̃̏͊͐̆̽͗̑́͂̔̏̆̀̾̇͗́̈́̓̀͆̈́̑̇̒́̍̈͂͆̂̇̿̅͋̃̈̾́͊́͋͛̓̊̇̀̓̊̓͋̏̄̆͛̈̔̏͐̏̎̑̂́̌̃̽̇̒̑̀͑̄͌̉̅̈́̔͐͆͒͆̆́̍͂̏̿͋͊̋̑̌̇̋͑̎̑̐͌̌̋͐͂̅̇̔͊̂̃̍̃̐̾͗̄͛̐̀͊̉̋̂̊͛͑̐̇̿̆͐̉̉̐̓̌̀̍̈́̔͑̏̍͒͑͒̈̀̍͐́̉̓̉͗́͊̎́͑̽́̃͐̏̀̃̍̉́́͊̏͌̈́͂̎̂̿̂̃͂͂̓̉͊̽̅́̉̓̃̓̉̄̌̾̀͛̒̅̂̒͋͌͐̅̿̌̇́̏̅̉̇̌͐͋͆̓̎̋̒̀̕̚̕͘̚͘̕͘͘̕̕̕͘̚̚͘͘̚̕͘̚̚̕̕̕̚̚͘̚͘͘͘̚̕̕̚̕̚͘̚̕͘͘̕̚̕͘̚͘͘̚̚̕̚̕̕̕͘̕̚̚̚͟͢͢͟͟͢͟͜͟͢͢͢͟͟͜͜͜͢͟͢͜͟͜͢͜͟͢͟͜͟͟͟͜͜͢͢͜͜͢͢͟͢͟͢͟͜͜͢͢͜͟͢͢͢͢͢͢͟͟͟͢͢͟͜͢͜͜͞͞͝͞͝͞͡͞͡͞͠͡͡͡͡͞͞͝͡͡͠͠͞͠͠͝͝͝͝͝͡͠͠͞͞͝͡͠͝͝͝͡͞͠͡͡͠͞͝͝͞͝͞͞͝͠͞͠͝͝͡͞͞͝͡͞͞͠͠͡͠͝͝͡͞͝͞͞͝͝͠͞͠͞͝͝͠͞͝͝͝͝͠͠͞͡͠͡ͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅc̢̢̢̧̨̨̡̧̧̡̡̧̡̨̡̡̢̢̨̢̧̡̢̧̨̨̢̡̨̧̧̡̢̡̨̡̧̧̡̢̧̡̢̨̡̧̧̡̧̡̡̨̡̢̢̨̡̧̨̨̨̧̢̡̨̡̧̡̡̨̧̨̧̡̨̡̢̨̡̧̢̢̧̢̡̧̡̨̡̨̡̡̡̢̢̧̢̨̨̡̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛͍͍͎͚̞̱̼̲̪̳͈͖̫̮̟͎̠̖̻̟͕͙͖̱̲̬͙͈̝̣̳͍̰̱̳̯͈͔̯̭͚̹͈͇͇̼̤͇̜̥̹̩͉̳̖͓̪͙̣͖̖̝̪̭̯̖̟̦͉̞̠̺̭͇͙͇̻̱͍̲̜͓̯̥̩͓̥̳̼̤̮̹̹͍̼̪̗̦̱͙̻̳̱͔͇̭̝̭͉͔̮̘̖̘̥̙̯͍͚̮̫̗̼͖̞̣̩͈̘̝̖̪͙̲̠̬̘͓̝͈̬̠̲͚͕̜̮̼͚̞̞̥̹̱͔̥̞̙̦̱̠͕̮̮͍͎̟͎̱̪̠̻̤̼̳̭͓͍͚̺̻̼̹̘̱̣̞͎͙͕̲̻̻̻͉̗͙̺̥̺͍̜͈͚̬̱͖͎͖̻̳̘͚̙̭̯̰͎̠̳͍̥̦̦̗̩̜̱͖̗̺̦̗̲̲͇̭̞͔͙̭͈̜̮͓̘͇̤̞̖̮̖͕͇͉͔̱̹̦̹͎̟̜̞̪̞̹͙͖̩͚̯͉̭̭̮̞̤͚̤̱̝̠̫̭͈̬͍̦͔̯̙̱̖̩̦͉͉̝̖̳̘͍̥͎̯̺͕̰̜͚͙̘̳̯͓̬̙̘͉̺̭̙͍̩̟̣͍̤̼͎̝̮̪̞̠̹̩̹͖̠̜͍̭̲̖̝͈̖͙̩̥̰̤̳͇̯͎̖̙̤̩̟̪͓̘͇̭͙̻̼̟̯̱͎̟̻̟͖̺̝͍̝͎͙͕̙̺̩͚̜̪͓̹͕̩̹͓̲̦̳̜͎̪̪͎̣̩̰̗̼̗̰̜̯̯̣̘͉̮͔̰̯͚̦̥͚͉̼̘̺̩̰̘̘͓͉͖͙͍͎̟̥̩̻͉̱̩͈͕̰͙̤͕̖̥̙̥̲̙̘̠̬͔̖̟̟̼̭̝̟̹̻̤͖͖̫̲̻̭̟̝̻̜̘͈̘̱͕͔͚͓̼̦̘͖͇̱͎̞̯̪͓̜̟͍̪̼̝͉͔̜̝̬̰̰̼̭̹̣͔̫̦͙̼̻͉̜̟̮̣͕̮͈̙̖͓̳̯̮͈̦̤̙͈̹̻̞̗̯̖͓̘̖̱͕̗̰̻͓̱̳͉̳̻̩̪̞̩̼̩͕̪̦̤̳̮̬̦̗̜̺̬̻͓̱̭͙̲͇̻͙̞̙̞̖̯̭͉̩̥͚̫̘͙͔̼̖̻̻͇̲̟̱̰̥̣̞͉̹̭͕͉͍̬̮̳͍̱͈̭͚̫͍͍̭͉̬̯͎̬̺̭͕̮̱̝̰̻̯̘̲̝͕͚͎̞̟̞̗͉̘̥͔̫̞̣̣͔̦͕̩̞̭̠̝̟͎̮̞̟͔̩͔̥̳̣̱͍̯̟͖̗͉͈̜͇̞̜̞͍̮̯͉̗̦͙̺͉͇͖̣̳͎͙̯̮͍̮͓̬͕͉͚̳̭̠̩͔͔̲̜̙̳͍̮̝̹̯̮͕̱̖̥̭̖̖̦͇̲̬̩̤̰̖̗̫̘̺̗͈̪̗̟̠͙̬͎͙̯̼̫̲̬͕͓̮͎̰̺̩̪̭̺̦͔̹̝̩̜͙̺̦̯̹̺͓̣̯̗͉͓̪̺͈̦̬͈̟̩̼̗̜̱͙̟̻̲̤̩̫̤͇̘͕̣̗͓͕͙̤̠̗̠̟͙̼̦̭̘̥̰̳̝̭̣̼͔͈̤̲̬͓̮̫͍̪̙͈̗͓͍͙̝͚̦̣̳̪̺̹̤̹̬͉͍̲͚͈̘̠̹̤̙̖̼̪̰̦̺̰͇̻̮̙̠̺̣͓͖͙̮͍̯̭̫̫̟͈̩̣͙͇͚̙̥͛̿͐̽̾͌́̓̀̀͆̂̊̾̽̆̋̈́̍͊͋̔̌̅̉̉͒̎̈͋̔̐͊̏̏̓̓̎͑̃̾̊̍͒̽̎̋̊̓̓͒̎̒͐͂͛̈́̾̎̔̈̐͂̒̒̔̅̊̓͋̆̄͐̍̉͊̄̈́́͂͒̓̔͌͛̄́̈͌̿̍̈́̾̔̑̊̀̉̾͋̍̀̀̐̇̽̈́̓̄̀̏́̀͊̌́̄̾͑̏͋͂́̀̔̄̅̋̇̒̊́̀̅͑̍͐͋̇̈́̀̈́͌̈́̔̒̽̽́̓̒̀̀͑̒̌̀͆́̐̍̓́̀͒̂͑̆̄́̍̍̾́̅̓̃͋̀͋͋͒̃̒̋̃̐̄̎̊͋̓̀̎̓̂̄̿̐̅̔́̇̋͗͛͑̊͐̄̆́̅̽̌̎́̅̂̂̌́̀͒͛̊̓͒̿̊̆͂̃͛̓̽͛̾̇͌́̈́͋̔̓͐̌̀̓͗̇͋̅͂̍͌̎̂̄͒͛̂́͒̍̈̈̾͐͊́͌̎̀͋̎́̽̎͑̈͊̎̓̊̔̅̓̂̆̀͊̌̑̀̀́́̄͗̐͑̃̂̂̍̍͂̔̃̇́͂̌͂̀͗͒̾̔͂͛̅͋̊̒̈́͗̀̓̑͊̐̈́̈̿̔͌̀́́͒̿̎́͌̐̀̽͒͆̀̅̅̽̓̾̑̂͑̃̾͛̀̀͗͐͌̀̾̌͑̽̇̄̿̀̏̿̎͆̄͊̀̌̓̾̋̓͐̀̌͒̓͑̊̊̈͊̏͗̂̎͌̉̏́̉͂̊̈́̈́́̏̂̍̍̃̀́͐̂̉̽̂̇̒͌̽̅͊̔̋͂͗̊͆̉̀̿̌͒̊͛́̔͌̔͊͛̂̽̒̒̂̔̑̾́͛̑͐̌̈̑̅̇̉̌̀͛̓̈͛͆̾͌̐̒́̉̐́̊̃̆̓̄̾͑̾̃͌͌͌̃̑̈̇̆̐̅̎̐̏̊͋͊͗̅͑͂̍͗͗́͊́͗̉̏̀̿̾͊͒̑̐̇̽̾̀͒̀̌͑̿̾̌͂͗̌͗̂̆̀̂̇̔̃͒̔̍̽͂͗͆͂̍̽̈́̃͑̂̃͂̌͌̈̏͊̋͌̎̔͗͌̉͛͐̑̔͒͊̊͐̆͒̉̅́̄̽̊̽̀̆͆̔͛̌̿͂͗͛̀̏͗̌̾͆̆̾̅͛̃͂̇̿̐̊̎̆̑͒͐͊̂̿̽̂͊̇̒̓͗͑̈̓͊̽̋͐́̏̂̆̽̋͗͒̆͑́́̑̃͑̇̒͆̆̏̔̇͑̅̔̎̓̏͌̉̒̋̒̑̒́̿̐̐̂̿̑̃͂̆͋͆͛̀͑̈́̈̓̌͒͆̊̊̑͌̆͐͑͐̾̽̾̏̈́̅̈̍̄͌́̒̀̒̇̀̈̏̿̾̈́̾̾͛̅̿̉͗̉̓̽̄̽̄̿̀̊̎̾͌͒̎̄̀̈́͒̒̒͂̈́̈́̀̋̎̃̌̃̒̓̈̅̿̉͑̋͛͑́̽̀̑̍̀͊̒̀͑̏̉̾͋̈̎͋͌͆̍̈̅̓̑́͊̍͑̎̌̈̎̀͑̏͂̑̅̉͒̉͗͗̈́͒̽́̈͒͂̓̐͂̃̉̅̎̀̑̀͆̀̀̇̽̈̅̀̂̈̅͋͐̈́͌͆̔̓͐͛̽̔̊͊̍͗̌̏̿͋̌̄́͋̔͑́̃͋͒͒̃̐̓̅͂̍̑̃̍̅̈͛͂͌͐̋̂̀̀͂̽̎̍̒̃̂̓̈͐̈̓̃̏͋̄́̿̏̇͐̓̆̏̋̔̓̾̂͊̉͑̑̀̏͗͆̽̚͘̕̕̚͘͘̚̚̕̚̚̚͘͘̕̕̚̚̚͘̕͘͘̕̚͘͘̕͘̕͘̚͘̕͘̕̕̕͘̕͘͘̕͘̕͘̕̕͘̕̕͘̚̕̚̕̕̕̕̕̚̚͘͢͜͢͜͜͢͟͜͟͢͢͢͜͟͟͢͢͢͟͜͜͜͟͜͢͜͜͢͢͜͜͢͜͟͢͟͜͢͟͢͟͟͟͢͜͜͟͜͟͜͜͜͜͢͟͟͢͟͢͟͜͢͜͜͟͟͢͜͜͟͜͟͟͟͢͟͟͢͞͝͠͝͠͠͡͠͞͠͞͡͡͝͝͝͡͡͞͠͡͡͝͠͠͞͝͠͠͠͡͝͝͠͡͝͞͞͝͡͝͞͡͠͝͡͝͠͝͝͠͝͝͠͞͝͡͞͝͠͠͡͝͞͡͠͠͡͝͞͠͠͞͝͝͠͝͝͡͝͝͡͡͠͞͠͠͠͠͠ͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅͅh̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛̛́̓̂̽͛̈̃̑̽̀̌͌̋̎̒͒͛̽͋̀͒̄̇̓̎̍͋̆̆̓̈́͌͛̈̄̽̀͋̏̓̂̉͌̒̒̈̈́̅͛̾͌̍͌͌̽̽̍̅͐̅̓̾̓͛̂̓̀̃͒̽̓͒͆̄͋̇̓̀͋͛̓̍͊͐̂̃̎͒̋͐͋̌̉͌͊̋̿̎̓̀͂̊́͂̽̋͌̌̔̓̈́̓̑͛̇͊̀̑͂̔̊̈́͌̏̀̏̿̈́̋̍̓̂͋͊͋̂̽̆̀͊̇̆̅͛̃͆̆̐̈́́͊͋͆́͂̽͌̎̀̄͊͑̔̑̉̆̇͂̋̏̀̄̽͊͋̿͋̉̆̒͑͌̐̌̔̅́̋̆̌̄̑̒̍̓̈͊̀̔̐͆̂̀̍̽͂́͆͛̈̾͂͋̓͌̀̾͒̎̏̌͛̇̿̔͛̍̾̈́̀̓̾̾͆͂͛̋̀̂̾͒́͗̏͑͑̃̊̎̎͆̔͋͗̽̓̐̏͋̔̒̏̈́͆͗͒́̐͛͌́͆̌͊͂̈͑́͗͛̉͒̎̒͛̈̂͌͑͐̆̾̋̓͑͆̃͋͌͗̐͋͐̀̊͐̂̒̀͑́̊́̓̾̀̀̇̀͐̓́̍̌͆͊̉͋̀͑͌͗̐́̈͂́̓̆̍͒͛͊̔̆̅̽̏̊̓̈̋͑̑̔͊̓̌̓̍̍̑̌̀̽͆͂̒̆̃̓͆̑̔̔́͑̌́̊̇͆̎̂́̍̓̈́̈́̽̆̉̐́̒͑͗̍̇̌̍́̌̏̈́̓̈̂̒͗̓̒͆́̇͆̒̔̔̅̒̓͌̄͊̅͐̅̃̀͊̇͂̃͛̆̆͆͂̔̍̾́̅́̉̇͗̐́̃̍̆͐́͊̏̊͌̉̆͊̅̋̅͌͋̏̆̏̂͒͑̊̓́̉̈́̈̆̆̌̍͋̃̐͊͋̒̇́̐͊͆̋̀̂́̈́̓̿͗͗̄̂̈́̈͂͐̄̔̀͋͂͊̿̎̿̋͑̆̂̓̓͒́̇̽̽͋̍̌̈́̈̿̈̐̾͋͌͂̍͂̿̒͌̀̅̑̋͑̀̏̔̄̂̓͊͐͗̿̒͆̌̈́͐̄̿͌͐̊̓̔̒̿̓̓̎̉̒͒̀͐͋̌̓͛͛́̀̂͋͆̀̓̎̀̄̈̉̾̊̎̄̍̉́̽̇̉̈̆͌͐͑͊̅̂̅͌̌̇̀̽̈̿̀̃̒̎̾̈́̃̐̉̃͑̒̎̄̿̌̎͋̃̆̾̋̓̃̄̄̉̈̀̐̉͂̀̓̍̅̀͋̐̒̀̅͆̍̓̆̊̀̊̓̈́́̇́̈̎́́̅̃͗̏̇̃̀̔̈̈́̎͂̐͂̀́͑̈̂̈́̆͑̓͗̎͛̿͑̀̄͒̍̏́͌̽̒̎̂̔̀̓̈́̌͆̏̀́̑̀͌̈́̽́͑́͌̍̋̒̊̐̐̿̑̈́͛̀͛̃̂̇͌̓̽͒̓͂̎̄̂̇̇̓̊̀͒̊̒̔̅̿̈̇͋̓̓̃̓͊̉͗͐͊͑͐̉̏̍͂͊̊̒̅͆̓͗͒̏̌̃̀̈́͑̒̎͌̀̿̀̏̊̑̏́̓͌͐̇̔̓̑̌̄͊̽̍͆̋̈́̐̀̊̍̓̓̾̄̓̿̆̿͂̃͒͗̂̓̂̓̎̑̀͐̏̑͊͋͆͊̊͐͊́͗͆̇̓̈̋̓̅̽̊̏̔̄̆̍̑̇̑̃̓̓́̅͗̓͊̀̍̓̓̂͑͆̔̊̂̋́̀́̉̾̓̇͌̅̑͗̍̆̑̃͆̇̓̑̌͒͐̔͋͋̓̓̇͛͗̎̓͒͒̽̓̅͒̍̌̀́̊́̃̔̆͗̾̍͒̑͂́̎͊̀̏͛̐̔̈́̑̊́̉̏͂̿̏́̆͛͌̉̿̓͂̔͑̀̑̇̎͊̎͂̓̒́͐̑̓̎̀̇͒́̓͊͒́͒̄͂̈͐͂̽̌̎͐̊̉̇̀͒́̓͋̉̍͆̾̄͐̽́̂̄͒̅̀͛̉̔̿͒͐̒̉̊̑̌͌̾̾̈́̍̔̆̉̔̇̇̾̂̓͋̓̇̐͒͆̋̅͋͌͋̀̆͑͂͒́͋͒̋̄̑͆͌͒̈́́̄̒̀̄̃̉̃̾̑͊̇̅̅̂͆͆̂̒̉̌͌̀̂̓͑̿̃̌͑̀̍̇͛͐͂͋̄̄͑̐͛͐̏͛̅͐͐̀̉̒͂̐̎̀̾̐̾̓͐̎̓̿̎̽̆̋͊́͒̓̀̅̀̇͋̿̊̑͋̏́͒̐͐͊̃̾̑̅̍͐͗̃̓͋̐̏̀̍̍͐̑̑̈́͆͌̊̀̈́͒̾́͐͂̓̂̾͑̅̿̑͆̆̑͆̾͑́̾̀̓̔͛̈́͊͗͑̃̓̅̓̊͛̔̉̒͌̑̆͒́̃͛͗͋̐͐͊̇͗̓̿̑̆̋̎̊̉̾̈́́́̓̑́́͒̎͋̔̏͑̿̈́͋̊̈́͆̏̿͋͌́̅̆̓͒̃͐̏̉͛̄̅́̾̽͆̂͆̈́̊͆͗̀́̍̊̉͊̓͊̃̚̚͘̕̕̚̕̕̕̕̕͘̚̕̚͘̕͘͘̚͘̚̕͘̕̚͘̚͘͘̚̚̕͘͘͘͘͘̚̚̕̕̚͘͘̚̚̕̕̕̕͘̚͘̚̕͘̚̕͘̕̕̚͘̕̚̚̚̕͘̚̚̕̕̕̚̕̕͘̕͘͘̕͘͘̕͘̕̕̚͘̕̕͘̕̕͘̕̕̕͞͠͞͝͠͞͠͠͡͞͞͝͡͠͞͡͠͡͞͠͠͝͠͡͡͝͝͠͝͡͡͞͡͝͡͡͞͠͡͝͝͞͞͡͡͞͝͡͝͡͡͡͞͝͝͠͡͝͡͡͝͠͝͝͡͡͠͠͠͝͠͝͞͡͝͝͞͠͡͠͞͠͡͠͞͞͠͞͝͝͠͠͡͡͝͡͠͡͠͠͡͡͝͝͝͝͡͝͡͡͠͞͞͠͝͞͡͞͞͡͡͞͠͠͝͡͝͝͡͡͡͠͞͠͞͞͡͞͡͝</value>
+  </data>
+  <metadata name="guna2DragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>141, 17</value>
+  </metadata>
+  <metadata name="guna2Elipse2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>301, 17</value>
+  </metadata>
+</root>
