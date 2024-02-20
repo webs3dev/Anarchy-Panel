@@ -1,5 +1,4 @@
 
-
 # Anarchy Panel HVNC RAT v4.7
 
 Anarchy Panel HVNC RAT v4.7 is a powerful all-in-one hacking software for Windows, combining RAT (Remote Access Trojan), HVNC (Hidden VNC), and Stealer functionalities. With this software, you can remotely access and control a target PC or laptop, steal sensitive information such as bank login details, files, social media passwords, cookies, credit cards, and much more, all while remaining undetected.
@@ -22,13 +21,9 @@ Anarchy Panel HVNC RAT v4.7 is a powerful all-in-one hacking software for Window
 
 ## Screenshots
 
-![Main](https://ibb.co/37zN68q)
-![Screenshot 2](https://ibb.co/0BbX5SC)
-
+![Screenshot 1](img/1.png)
+![Screenshot 2](img/2.png)
 
 ## Disclaimer
 
 The use of Anarchy Panel HVNC RAT v4.7 for unauthorized access to computers or networks without proper authorization may be illegal in some jurisdictions. Usage of this software should comply with all applicable laws and regulations. The developers and contributors of this software are not responsible for any misuse or illegal activities conducted with this tool.
-
-
-
